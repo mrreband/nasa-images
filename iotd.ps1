@@ -1,4 +1,4 @@
-# Download and open the NASA Image of the day (iotd)
+# Download and open the NASA Image of the day
 # Download to a path $TargetFolder (relative to this script's location)
 
 param
@@ -24,12 +24,17 @@ $FileName = $ImageUrl.SubString($ImageUrl.LastIndexOf('/') + 1)
 $AbsolutePath = Join-Path $PSScriptRoot ($TargetFolder)
 $TargetFilePath = Join-Path $AbsolutePath ($FileName)
 
-# Download
-echo "Downloading $TargetFilePath"
-mkdir $AbsolutePath -Force | Out-Null
-Invoke-WebRequest $ImageUrl -OutFile $TargetFilePath
+if (!(test-path($TargetFilePath)))
+{
+	# Download
+	echo "Downloading $TargetFilePath"
+	mkdir $AbsolutePath -Force | Out-Null
+	Invoke-WebRequest $ImageUrl -OutFile $TargetFilePath
 
-# Open locally with the default app
-start $TargetFilePath
+	# Open locally with the default app
+	start $TargetFilePath
+} else {
+	echo "Target file already exists"
+}
 
 exit

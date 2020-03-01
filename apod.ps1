@@ -1,4 +1,4 @@
-# Download and open the NASA Astronomy picture of the day (apod)
+# Download and open the Astronomy picture of the day
 # Download to target folder $TargetFolder (relative to this script's location)
 
 param
@@ -32,13 +32,18 @@ if ($ShortImageUrl)
 	$FileName = $ImageUrl.SubString($ImageUrl.LastIndexOf('/') + 1)
 	$TargetFilePath = Join-Path $AbsolutePath ($FileName)
 	
-	# Download
-	echo "Downloading $TargetFilePath"
-	mkdir $AbsolutePath -Force | Out-Null
-	Invoke-WebRequest $ImageUrl -OutFile $TargetFilePath
+	if (!(test-path($TargetFilePath)))
+	{
+		# Download
+		echo "Downloading $TargetFilePath"
+		mkdir $AbsolutePath -Force | Out-Null
+		Invoke-WebRequest $ImageUrl -OutFile $TargetFilePath
 
-	# Open locally with the default app
-	start $TargetFilePath
+		# Open locally with the default app
+		start $TargetFilePath	
+	} else {
+		echo "Target file already exists"
+	}
 }
 else
 {
