@@ -1,5 +1,6 @@
-# Download and open the Astronomy picture of the day
+# Download and open the NASA Astronomy picture of the day (apod)
 # Download to target folder $TargetFolder (relative to this script's location)
+# https://apod.nasa.gov/apod/archivepix.html
 
 param
 (
