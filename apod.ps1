@@ -8,48 +8,15 @@ param
 )
 
 $ErrorActionPreference = "Stop"
+. ./util.ps1
 
-# Page URL derived from the current date
-$date = Get-Date -format "yyMMdd"
-$RootUrl = "https://apod.nasa.gov/apod"
-$PageUrl = "${RootUrl}/ap${date}.html"
-echo "PageUrl = $PageUrl"
+$api_key = Get-Content("./ApiKey.txt")
+$date = Get-Date -format "yyyy-MM-dd"
+$RootUrl = "https://api.nasa.gov/planetary/apod"
+$PageUrl = "${RootUrl}?api_key=${api_key}&date=${date}"
+Write-Output "PageUrl = $PageUrl"
 
-# Get the page contents
-[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-$page = (Invoke-WebRequest $PageUrl) 
+$hdurl = GetHdUrl($PageUrl)
+Write-Output "ImageUrl = $hdurl"
 
-# Find the image in the page
-$ImageOfTheDay = $page.AllElements | Where-Object {$_.tagName -eq "IMG"}
-$ShortImageUrl = $ImageOfTheDay.src
-if ($ShortImageUrl)
-{
-	# Get the image url
-	$ImageUrl = "${RootUrl}/${ShortImageUrl}"
-	echo "ImageUrl = $ImageUrl"
-
-	# Set the absolute target file path
-	$AbsolutePath = Join-Path $PSScriptRoot ($TargetFolder)
-	$FileName = $ImageUrl.SubString($ImageUrl.LastIndexOf('/') + 1)
-	$TargetFilePath = Join-Path $AbsolutePath ($FileName)
-	
-	if (!(test-path($TargetFilePath)))
-	{
-		# Download
-		echo "Downloading $TargetFilePath"
-		mkdir $AbsolutePath -Force | Out-Null
-		Invoke-WebRequest $ImageUrl -OutFile $TargetFilePath
-
-		# Open locally with the default app
-		start $TargetFilePath	
-	} else {
-		echo "Target file already exists"
-	}
-}
-else
-{
-	# sometimes the picture of the day is a video
-	echo "No image found sry"
-}
-
-exit
+DownloadImage($hdurl)

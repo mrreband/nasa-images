@@ -1,6 +1,7 @@
 # Download and open the NASA Image of the day (iotd)
 # Download to a path $TargetFolder (relative to this script's location)
 # https://www.nasa.gov/multimedia/imagegallery/iotd.html
+# todo: use the api instead of manual scraping
 
 param
 (
