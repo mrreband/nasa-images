@@ -3,7 +3,8 @@ function GetHDUrl ($PageUrl)
 	$response = Invoke-WebRequest -URI $PageUrl
 	if ($response.StatusCode -eq 200)
 	{
-		$hdurlMatch = ($response.Content.split(",") | select-string("hdurl"))
+		$responseContent = $response.Content
+		$hdurlMatch = ($responseContent.split(",") | select-string("hdurl"))
 		if ($hdurlMatch)
 		{
 			$hdurl = $hdurlMatch.Line -replace '"hdurl":"', '' -replace '"', ''
@@ -22,15 +23,17 @@ function GetHDUrl ($PageUrl)
 function DownloadImage ($ImageUrl, $TargetFolder)
 {
 	# Set the absolute target file path
-	$AbsolutePath = Join-Path $PSScriptRoot ($TargetFolder)
-	$FileName = $hdurl.SubString($hdurl.LastIndexOf('/') + 1)
-	$TargetFilePath = Join-Path $AbsolutePath ($FileName)
+	$AbsolutePath = Join-Path $PSScriptRoot $TargetFolder
+	
+	$startPosition = $ImageUrl.LastIndexOf('/')
+	$FileName = $ImageUrl.SubString($ImageUrl.LastIndexOf('/') + 1)
+	$TargetFilePath = Join-Path $AbsolutePath $FileName
 
 	if (!(test-path($TargetFilePath)))
 	{
 		# Download
 		mkdir $AbsolutePath -Force | Out-Null
-		Invoke-WebRequest $ImageUrl -OutFile $TargetFilePath
+		Invoke-WebRequest -Uri $ImageUrl -OutFile $TargetFilePath
 
 		# Open locally with the default app
 		Start-Process $TargetFilePath
