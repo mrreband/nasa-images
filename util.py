@@ -1,6 +1,7 @@
 import os
 import subprocess
 
+import urllib.request
 import pandas as pd
 import requests
 
@@ -9,13 +10,13 @@ from bs4 import BeautifulSoup
 
 
 def get_source(url):
-    """Return the source code for the provided URL. 
+    """Return the source code for the provided URL.
 
-    Args: 
+    Args:
         url (string): URL of the page to scrape.
 
     Returns:
-        response (object): HTTP response object from requests_html. 
+        response (object): HTTP response object from requests_html.
     """
     session = HTMLSession()
     response = session.get(url)
@@ -25,21 +26,21 @@ def get_source(url):
 def get_feed_pd(url):
     """Return a Pandas dataframe containing the RSS feed contents.
 
-    Args: 
+    Args:
         url (string): URL of the RSS feed to read.
 
     Returns:
         df (dataframe): Pandas dataframe containing the RSS feed contents.
     """
-    
+
     response = get_source(url)
-    
+
     df = pd.DataFrame(columns = ['title', 'link', 'pubDate', 'guid', 'description'])
 
     with response as r:
         items = r.html.find("item", first=False)
-        
-        for item in items:        
+
+        for item in items:
 
             title = item.find('title', first=True).text
             link = item.find('link', first=True).text
@@ -56,7 +57,7 @@ def get_feed_pd(url):
 def get_feed(url, item_count: int):
     """Return a Pandas dataframe containing the RSS feed contents.
 
-    Args: 
+    Args:
         url (string): URL of the RSS feed to read.
 
     Returns:
@@ -64,11 +65,11 @@ def get_feed(url, item_count: int):
     """
     response = get_source(url)
     fields = {"title": "text", "link": "html", "pubDate": "text", "guid": "text", "description": "text"}
-    
+
     feed_items = []
     with response as r:
         response_items = r.html.find("item", first=False)
-        if item_count: 
+        if item_count:
             response_items = response_items[:item_count]
 
         for response_item in response_items:
@@ -82,11 +83,10 @@ def get_feed(url, item_count: int):
 def download_image(image_url, target_folder):
     image_name = image_url.split("/")[-1]
     target_path = os.path.join(target_folder, image_name)
-
     if os.path.exists(target_path):
         print(f"target file {target_path} already exists")
     else:
+        os.makedirs(target_folder, exist_ok=True)
         print(f"{image_url} ==> {target_path}")
-        import urllib.request
         urllib.request.urlretrieve(image_url, target_path)
         subprocess.call(('open', target_path))
