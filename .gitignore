@@ -1,4 +1,8 @@
 .env
+*.log
 
+.DS_STORE
+.idea/
+__pycache__/
 venv/
 images/
