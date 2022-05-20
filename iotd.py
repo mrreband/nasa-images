@@ -10,7 +10,7 @@ target_folder = "./images/iotd"
 def get_iotd_image_url(post_url):
     last_post = requests.get(post_url)
     data = str(last_post.content)
-    soup = BeautifulSoup(data)
+    soup = BeautifulSoup(data, features="lxml")
     image = soup.find("meta", property="og:image")
     image_url = image.attrs.get("content", "")
     return image_url

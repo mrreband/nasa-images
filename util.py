@@ -3,7 +3,7 @@ import subprocess
 
 import urllib.request
 import pandas as pd
-import requests
+import feedparser
 
 from requests_html import HTML, HTMLSession
 from bs4 import BeautifulSoup
@@ -23,61 +23,32 @@ def get_source(url):
     return response
 
 
-def get_feed_pd(url):
-    """Return a Pandas dataframe containing the RSS feed contents.
-
-    Args:
-        url (string): URL of the RSS feed to read.
-
-    Returns:
-        df (dataframe): Pandas dataframe containing the RSS feed contents.
+def get_feed(url: str, item_count: int):
     """
+    get the latest n entries from an rss feed
 
-    response = get_source(url)
+    rtype: dict
+    """
+    feed = feedparser.parse(url)
+    feed_items = feed.entries[:item_count]
+    fields = ["title", "link", "published", "id", "summary"]
+    feed_items = [dict((k, v) for fi in feed_items for k, v in fi.items() if k in fields)]
+    return feed_items
 
+
+def get_feed_pd(url: str, item_count: int):
+    """
+    get the latest n entries from an rss feed, returned as a pandas dataframe
+
+    :rtype: pd.DataFrame
+    """
+    feed_items = get_feed(url=url, item_count=item_count)
     df = pd.DataFrame(columns = ['title', 'link', 'pubDate', 'guid', 'description'])
 
-    with response as r:
-        items = r.html.find("item", first=False)
-
-        for item in items:
-
-            title = item.find('title', first=True).text
-            link = item.find('link', first=True).text
-            pubDate = item.find('pubDate', first=True).text
-            guid = item.find('guid', first=True).text
-            description = item.find('description', first=True).text
-
-            row = {'title': title, 'link': link, 'pubDate': pubDate, 'guid': guid, 'description': description}
-            df = df.append(row, ignore_index=True)
+    for item in feed_items:
+        df = df.append(item, ignore_index=True)
 
     return df
-
-
-def get_feed(url, item_count: int):
-    """Return a Pandas dataframe containing the RSS feed contents.
-
-    Args:
-        url (string): URL of the RSS feed to read.
-
-    Returns:
-        df (dataframe): Pandas dataframe containing the RSS feed contents.
-    """
-    response = get_source(url)
-    fields = {"title": "text", "link": "html", "pubDate": "text", "guid": "text", "description": "text"}
-
-    feed_items = []
-    with response as r:
-        response_items = r.html.find("item", first=False)
-        if item_count:
-            response_items = response_items[:item_count]
-
-        for response_item in response_items:
-            feed_item = dict((k, getattr(response_item.find(k, first=True), v)) for k, v in fields.items())
-            feed_item["link"] = feed_item["link"].replace("<link/>", "")
-            feed_items.append(feed_item)
-
-    return feed_items
 
 
 def download_image(image_url, target_folder):
