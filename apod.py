@@ -1,7 +1,6 @@
 import os
-from datetime import datetime
 
-from util import download_image, get_source
+from util import download_image, get_source, current_date
 from dotenv import load_dotenv, find_dotenv
 
 load_dotenv(find_dotenv())
@@ -11,7 +10,6 @@ target_folder = "./images/apod"
 
 
 def get_latest_post() -> dict:
-    current_date = datetime.now().strftime("%Y-%m-%d")
     page_url = f"{root_url}?api_key={api_key}&date={current_date}"
 
     page = get_source(page_url)

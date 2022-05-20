@@ -2,11 +2,15 @@ import os
 import subprocess
 
 import urllib.request
+from datetime import datetime
+
 import pandas as pd
 import feedparser
 
-from requests_html import HTML, HTMLSession
-from bs4 import BeautifulSoup
+from requests_html import HTMLSession
+
+
+current_date = datetime.now().strftime("%Y-%m-%d")
 
 
 def get_source(url):
@@ -55,9 +59,9 @@ def download_image(image_url, target_folder):
     image_name = image_url.split("/")[-1]
     target_path = os.path.join(target_folder, image_name)
     if os.path.exists(target_path):
-        print(f"target file {target_path} already exists")
+        print(f"{current_date}: target file {target_path} already exists")
     else:
         os.makedirs(target_folder, exist_ok=True)
-        print(f"{image_url} ==> {target_path}")
+        print(f"{current_date}: {image_url} ==> {target_path}")
         urllib.request.urlretrieve(image_url, target_path)
         subprocess.call(('open', target_path))
