@@ -37,6 +37,12 @@ function DownloadImage ($ImageUrl, $TargetFolder)
 
 		# Open locally with the default app
 		Start-Process $TargetFilePath
+
+		# Switch the background to span 
+		# - Want: "Choose a fit" on the Windows Background screen to always be "span"
+		# 	- if you choose "set as background" in the images app, it will reset the fit to "fit", and this will subsequently set it to span
+		# 	- if you didn't choose a new background, this doesn't do anything, but it doesn't hurt anything either
+		. ".\RefreshWallpaper.ps1" -WallpaperStyle 22		
 	} else {
 		Write-Output "Target file already exists"
 	}
