@@ -16,7 +16,7 @@ echo "PageUrl = $PageUrl"
 $mostRecentItem = (Invoke-WebRequest $PageUrl) 
 
 # Find the image in the page
-$ImageOfTheDay = $mostRecentItem.AllElements | Where-Object {$_.tagName -eq "meta" -and $_.OuterHTML -like "*og:image*"}
+$ImageOfTheDay = $mostRecentItem.AllElements | Where-Object {$_.tagName -eq "meta" -and $_.property -eq "og:image"}
 $ImageUrl = $ImageOfTheDay.content
 echo "ImageUrl = $ImageUrl"
 
