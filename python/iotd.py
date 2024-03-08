@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from util import get_feed, download_image
 
 iotd_url = "https://www.nasa.gov/rss/dyn/lg_image_of_the_day.rss"
-target_folder = "./images/iotd"
+target_folder = os.path.join(os.path.dirname(__file__), "images", "iotd")
 
 
 def get_iotd_image_url(post_url):
