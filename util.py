@@ -1,4 +1,5 @@
 import os
+import platform
 import subprocess
 
 import urllib.request
@@ -8,7 +9,6 @@ import pandas as pd
 import feedparser
 
 from requests_html import HTMLSession
-
 
 current_date = datetime.now().strftime("%Y-%m-%d")
 
@@ -47,12 +47,27 @@ def get_feed_pd(url: str, item_count: int):
     :rtype: pd.DataFrame
     """
     feed_items = get_feed(url=url, item_count=item_count)
-    df = pd.DataFrame(columns = ['title', 'link', 'pubDate', 'guid', 'description'])
+    df = pd.DataFrame(columns=['title', 'link', 'pubDate', 'guid', 'description'])
 
     for item in feed_items:
         df = df.append(item, ignore_index=True)
 
     return df
+
+
+def open_image(file_path):
+    """
+    open a file with the default OS app
+    """
+    system = platform.system()
+    if system == 'Linux':
+        subprocess.run(['xdg-open', file_path])
+    elif system == 'Darwin':  # macOS
+        subprocess.run(['open', file_path])
+    elif system == 'Windows':
+        subprocess.run(['start', '', file_path], shell=True)
+    else:
+        print("Unsupported operating system. Cannot open the file.")
 
 
 def download_image(image_url, target_folder):
@@ -64,4 +79,5 @@ def download_image(image_url, target_folder):
         os.makedirs(target_folder, exist_ok=True)
         print(f"{current_date}: {image_url} ==> {target_path}")
         urllib.request.urlretrieve(image_url, target_path)
-        subprocess.call(('open', target_path))
+
+    open_image(target_path)
