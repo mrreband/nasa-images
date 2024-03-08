@@ -5,7 +5,6 @@ import subprocess
 import urllib.request
 from datetime import datetime
 
-import pandas as pd
 import feedparser
 
 from requests_html import HTMLSession
@@ -38,21 +37,6 @@ def get_feed(url: str, item_count: int):
     fields = ["title", "link", "published", "id", "summary"]
     feed_items = [dict((k, v) for fi in feed_items for k, v in fi.items() if k in fields)]
     return feed_items
-
-
-def get_feed_pd(url: str, item_count: int):
-    """
-    get the latest n entries from an rss feed, returned as a pandas dataframe
-
-    :rtype: pd.DataFrame
-    """
-    feed_items = get_feed(url=url, item_count=item_count)
-    df = pd.DataFrame(columns=['title', 'link', 'pubDate', 'guid', 'description'])
-
-    for item in feed_items:
-        df = df.append(item, ignore_index=True)
-
-    return df
 
 
 def open_image(file_path):
