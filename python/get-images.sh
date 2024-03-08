@@ -1,5 +1,6 @@
 #!/bin/bash
-source activate
+cd /Users/mr/repos/nasa-images/python
+source venv/bin/activate
 
-python -m apod apod.py
-python -m iotd iotd.py
+python -m apod
+python -m iotd
