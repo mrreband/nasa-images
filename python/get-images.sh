@@ -1,5 +1,5 @@
 #!/bin/bash
 source activate
 
-python -m apod apod.py >> apod.log
-python -m iotd iotd.py >> iotd.log
+python -m apod apod.py
+python -m iotd iotd.py
