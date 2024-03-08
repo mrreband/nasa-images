@@ -9,6 +9,8 @@ import feedparser
 
 import requests
 
+from logger import logger
+
 current_date = datetime.now().strftime("%Y-%m-%d")
 
 
@@ -50,17 +52,17 @@ def open_image(file_path):
     elif system == 'Windows':
         subprocess.run(['start', '', file_path], shell=True)
     else:
-        print("Unsupported operating system. Cannot open the file.")
+        logger.error("Unsupported operating system. Cannot open the file.")
 
 
 def download_image(image_url, target_folder):
     image_name = image_url.split("/")[-1]
     target_path = os.path.join(target_folder, image_name)
     if os.path.exists(target_path):
-        print(f"{current_date}: target file {target_path} already exists")
+        logger.info(f"{current_date}: target file {target_path} already exists")
     else:
         os.makedirs(target_folder, exist_ok=True)
-        print(f"{current_date}: {image_url} ==> {target_path}")
+        logger.info(f"{current_date}: {image_url} ==> {target_path}")
         urllib.request.urlretrieve(image_url, target_path)
 
     open_image(target_path)
