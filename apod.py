@@ -4,9 +4,9 @@ from util import download_image, get_source, current_date
 from dotenv import load_dotenv, find_dotenv
 
 load_dotenv(find_dotenv())
-root_url = os.environ.get("ROOT_URL")
+root_url = os.environ.get("APOD_ROOT_URL")
 api_key = os.environ.get("API_KEY")
-target_folder = "./images/apod"
+target_folder = os.path.join(os.path.dirname(__file__), "images", "apod")
 
 
 def get_latest_post() -> dict:
