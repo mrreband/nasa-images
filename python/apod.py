@@ -11,7 +11,6 @@ target_folder = os.path.join(os.path.dirname(__file__), "images", "apod")
 
 def get_latest_post() -> dict:
     page_url = f"{root_url}?api_key={api_key}&date={current_date}"
-
     page = get_source(page_url)
     page_data = page.json()
     return page_data

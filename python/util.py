@@ -7,7 +7,7 @@ from datetime import datetime
 
 import feedparser
 
-from requests_html import HTMLSession
+import requests
 
 current_date = datetime.now().strftime("%Y-%m-%d")
 
@@ -21,8 +21,7 @@ def get_source(url):
     Returns:
         response (object): HTTP response object from requests_html.
     """
-    session = HTMLSession()
-    response = session.get(url)
+    response = requests.get(url)
     return response
 
 
