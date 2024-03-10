@@ -5,8 +5,8 @@ import subprocess
 import urllib.request
 from datetime import datetime
 
+from appscript import app, mactypes
 import feedparser
-
 import requests
 
 from logger import logger
@@ -55,7 +55,7 @@ def open_image(file_path):
         logger.error("Unsupported operating system. Cannot open the file.")
 
 
-def download_image(image_url, target_folder):
+def download_image(image_url, target_folder, open_image_app: bool = False):
     image_name = image_url.split("/")[-1]
     target_path = os.path.join(target_folder, image_name)
     if os.path.exists(target_path):
@@ -65,4 +65,11 @@ def download_image(image_url, target_folder):
         logger.info(f"{current_date}: {image_url} ==> {target_path}")
         urllib.request.urlretrieve(image_url, target_path)
 
-    open_image(target_path)
+    if open_image_app:
+        open_image(target_path)
+    return target_path
+
+
+def set_wallpaper(file_path):
+    logger.info(f"set_wallpaper: {file_path}")
+    app('Finder').desktop_picture.set(mactypes.File(file_path))
