@@ -9,7 +9,7 @@ logger.setLevel(logging.DEBUG)
 # stdout handler
 handler = logging.StreamHandler(sys.stdout)
 handler.setLevel(logging.INFO)
-formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+formatter = logging.Formatter('%(asctime)s - %(module)s - %(levelname)s - %(message)s')
 handler.setFormatter(formatter)
 logger.addHandler(handler)
 
@@ -43,7 +43,7 @@ def log_fn(fn):
         # log fn start
         start_msg = f"Starting execution of {fn.__name__} function"
         if fn.__name__ not in exclude_results:
-            start_msg += f"kwargs: {get_kwargs(**kwargs)}"
+            start_msg += f" - kwargs: {get_kwargs(**kwargs)}"
         logger.info(start_msg)
 
         # call fn
