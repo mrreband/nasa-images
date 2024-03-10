@@ -17,7 +17,7 @@ def get_image_from_html(last_post):
     data = str(last_post.content)
     soup = BeautifulSoup(data, features="lxml")
     image = soup.find("meta", property="og:image")
-    image_url = image.attrs.get("content", "")
+    image_url = image.attrs.get("content", None)
     return image_url
 
 
@@ -41,7 +41,7 @@ def get_iotd_image_url(post_url):
         return get_image_from_html(last_post=last_post)
 
 
-if __name__ == '__main__':
+def main(open_image_app: bool = True):
     os.makedirs(target_folder, exist_ok=True)
 
     last_post = get_feed(iotd_url, 1)[0]
@@ -49,4 +49,10 @@ if __name__ == '__main__':
     image_url = get_iotd_image_url(last_post_url)
 
     if image_url:
-        download_image(image_url, target_folder)
+        image_path = download_image(image_url, target_folder, open_image_app=open_image_app)
+        return image_path
+    return None
+
+
+if __name__ == '__main__':
+    main()
