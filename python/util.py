@@ -74,6 +74,8 @@ def download_image(image_url, target_folder, open_image_app: bool = False):
 
 
 def set_wallpaper(file_path):
+    # todo: set SYSTEM as a const at the top - it's also used in open_image
+    #       rename current_date to CURRENT_DATE for clarity (it is a constant)
     if not os.path.exists(file_path):
         logger.error(f"Wallpaper file does not exist: {file_path}")
         return
