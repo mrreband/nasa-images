@@ -3,15 +3,18 @@ import platform
 import subprocess
 
 import urllib.request
-from datetime import datetime
+from datetime import datetime, timedelta
 
-from appscript import app, mactypes
 import feedparser
 import requests
 
 from logger import logger
 
 current_date = datetime.now().strftime("%Y-%m-%d")
+
+
+def get_date(days_diff: int):
+    return (datetime.now() - timedelta(days=abs(days_diff))).strftime("%Y-%m-%d")
 
 
 def get_source(url):
@@ -71,5 +74,6 @@ def download_image(image_url, target_folder, open_image_app: bool = False):
 
 
 def set_wallpaper(file_path):
+    from appscript import app, mactypes
     logger.info(f"set_wallpaper: {file_path}")
     app('Finder').desktop_picture.set(mactypes.File(file_path))
