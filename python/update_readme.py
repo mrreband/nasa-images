@@ -27,14 +27,16 @@ def update_readme():
     """
     update the root README.md - set urls for the latest images, set last updated date
     """
+    img_height = '"300"'
+
     page_data = apod.get_post()
     image_url = apod.get_image_url(page_data=page_data)
-    apod_url_line = f'<img alt="apod" src="{image_url}" />\n'
+    apod_url_line = f'<img alt="apod" src="{image_url}" height={img_height} />\n'
 
     last_post = iotd.get_feed(iotd.iotd_url, 1)[0]
     last_post_url = last_post["link"]
     image_url = iotd.get_iotd_image_url(last_post_url)
-    iotd_url_line = f'<img alt="iotd" src="{image_url}" />\n'
+    iotd_url_line = f'<img alt="iotd" src="{image_url}" height={img_height} />\n'
 
     readme = get_readme()
     for idx in range(len(readme)):
