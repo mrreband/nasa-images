@@ -99,3 +99,15 @@ def set_wallpaper(file_path):
         SPIF_UPDATEINIFILE = 1
         SPIF_SENDCHANGE = 2
         ctypes.windll.user32.SystemParametersInfoW(SPI_SETDESKWALLPAPER, 0, file_path, SPIF_UPDATEINIFILE | SPIF_SENDCHANGE)
+
+
+def get_file_contents(file_path: str):
+    with open(file_path, "r", encoding="utf8") as file:
+        file_contents = file.readlines()
+        return file_contents
+
+
+def write_file_contents(file_path: str, file_contents):
+    with open(file_path, "w", encoding="utf8") as file:
+        file.writelines(file_contents)
+
