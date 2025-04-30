@@ -3,15 +3,18 @@ import platform
 import subprocess
 
 import urllib.request
-from datetime import datetime
+from datetime import datetime, timedelta
 
-from appscript import app, mactypes
 import feedparser
 import requests
 
 from logger import logger
 
 current_date = datetime.now().strftime("%Y-%m-%d")
+
+
+def get_date(days_diff: int):
+    return (datetime.now() - timedelta(days=abs(days_diff))).strftime("%Y-%m-%d")
 
 
 def get_source(url):
@@ -71,5 +74,28 @@ def download_image(image_url, target_folder, open_image_app: bool = False):
 
 
 def set_wallpaper(file_path):
-    logger.info(f"set_wallpaper: {file_path}")
-    app('Finder').desktop_picture.set(mactypes.File(file_path))
+    # todo: set SYSTEM as a const at the top - it's also used in open_image
+    #       rename current_date to CURRENT_DATE for clarity (it is a constant)
+    if not os.path.exists(file_path):
+        logger.error(f"Wallpaper file does not exist: {file_path}")
+        return
+
+    system = platform.system()
+    if system == "darwin":
+        from appscript import app, mactypes
+        logger.info(f"set_wallpaper: {file_path}")
+        app('Finder').desktop_picture.set(mactypes.File(file_path))
+    elif system == "Windows":
+        import ctypes
+        import winreg as reg
+
+        # Update the registry
+        key = reg.OpenKey(reg.HKEY_CURRENT_USER, "Control Panel\\Desktop", 0, reg.KEY_WRITE)
+        reg.SetValueEx(key, "Wallpaper", 0, reg.REG_SZ, file_path)
+        reg.CloseKey(key)
+
+        # Notify the system to update the desktop background
+        SPI_SETDESKWALLPAPER = 20
+        SPIF_UPDATEINIFILE = 1
+        SPIF_SENDCHANGE = 2
+        ctypes.windll.user32.SystemParametersInfoW(SPI_SETDESKWALLPAPER, 0, file_path, SPIF_UPDATEINIFILE | SPIF_SENDCHANGE)
