@@ -1,28 +1,14 @@
 # Nasa Images
 
-Powershell Scripts to download images from NASA feeds, typically updated daily: 
+## Scripts to download images from NASA feeds
+
+- [python version](./python/README.md)
+- [powershell version](./powershell/README.md)
 
 ---
-
-- `iotd.ps1` | Image Of the Day | https://www.nasa.gov/image-of-the-day/
-  - no authentication required
-
-- `apod.ps1` | Astronomy Picture of the Day | https://apod.nasa.gov/apod/  
-  - requires an api key 
-    1.  you can get one here https://api.nasa.gov/
-    2.  then put it in a file in the project root called `./ApiKey.txt`
-
-- `RefreshWallpaper.ps1`
-  - after setting a new image as desktop background, the fit reverts to "Fill". 
-  - if you prefer to span images across multiple monitors, this will set the fit to "Span"
-
+<!-- apod image: -->
+<img alt="apod" src="https://apod.nasa.gov/apod/image/2504/HappySkyMexico_Korona_1358.jpg" />
 ---
-
-Notes: 
-- when images are found, they will be downloaded to `./images/`
-- sometimes the article doesn't have an image, and instead is a video
-
+<!-- iotd image: -->
+<img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2025/04/potw2515a.jpg" />
 ---
-
-Suggestions and contributions are welcome.
-
