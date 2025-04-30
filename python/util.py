@@ -99,3 +99,30 @@ def set_wallpaper(file_path):
         SPIF_UPDATEINIFILE = 1
         SPIF_SENDCHANGE = 2
         ctypes.windll.user32.SystemParametersInfoW(SPI_SETDESKWALLPAPER, 0, file_path, SPIF_UPDATEINIFILE | SPIF_SENDCHANGE)
+
+
+def get_file_contents(file_path: str):
+    with open(file_path, "r", encoding="utf8") as file:
+        file_contents = file.readlines()
+        return file_contents
+
+
+def write_file_contents(file_path: str, file_contents):
+    with open(file_path, "w", encoding="utf8") as file:
+        file.writelines(file_contents)
+
+
+def get_readme_path():
+    python_folder = os.path.join(os.path.dirname(__file__))
+    root_folder = os.path.dirname(python_folder)
+    readme_path = os.path.join(root_folder, "README.md")
+    return readme_path
+
+def get_readme():
+    readme_path = get_readme_path()
+    return get_file_contents(file_path=readme_path)
+
+
+def write_readme(file_contents):
+    readme_path = get_readme_path()
+    write_file_contents(file_path=readme_path, file_contents=file_contents)
