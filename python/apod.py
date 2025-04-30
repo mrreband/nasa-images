@@ -1,7 +1,6 @@
 import os
 
 from logger import logger
-from python.util import get_file_contents, write_readme, get_readme
 from util import download_image, get_date, get_source, current_date
 from dotenv import load_dotenv, find_dotenv
 
@@ -49,22 +48,6 @@ def main(open_image_app: bool = True):
     else:
         logger.info("no image found sry")
         return None
-
-
-def update_readme():
-    page_data = get_post()
-    image_url = get_image_url(page_data=page_data)
-    url_line = f'<img alt="apod" src="{image_url}" />\n'
-
-    readme = get_readme()
-    for idx in range(len(readme)):
-        if "last updated" in readme[idx]:
-            today = get_date(days_diff=0)
-            readme[idx] = f"### latest images (last updated {today})\n"
-        elif '<img alt="apod"' in readme[idx]:
-            readme[idx] = url_line
-            logger.info(f"write {url_line}")
-    write_readme(file_contents=readme)
 
 
 if __name__ == '__main__':

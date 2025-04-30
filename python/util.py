@@ -111,18 +111,3 @@ def write_file_contents(file_path: str, file_contents):
     with open(file_path, "w", encoding="utf8") as file:
         file.writelines(file_contents)
 
-
-def get_readme_path():
-    python_folder = os.path.join(os.path.dirname(__file__))
-    root_folder = os.path.dirname(python_folder)
-    readme_path = os.path.join(root_folder, "README.md")
-    return readme_path
-
-def get_readme():
-    readme_path = get_readme_path()
-    return get_file_contents(file_path=readme_path)
-
-
-def write_readme(file_contents):
-    readme_path = get_readme_path()
-    write_file_contents(file_path=readme_path, file_contents=file_contents)
