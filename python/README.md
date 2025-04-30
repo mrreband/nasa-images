@@ -16,10 +16,10 @@ Usage:
 
 Modules:
 
-- `iotd.py` | Image Of the Day | https://www.nasa.gov/image-of-the-day/
+- `iotd.py`: Image Of the Day - https://www.nasa.gov/image-of-the-day/
   - no authentication required
 
-- `apod.py` | Astronomy Picture of the Day | https://apod.nasa.gov/apod/
+- `apod.py`: Astronomy Picture of the Day - https://apod.nasa.gov/apod/
   - requires an api key
 
 ---
