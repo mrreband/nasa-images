@@ -2,7 +2,7 @@ import os
 import requests
 
 from logger import logger, log_fn
-from python.util import get_readme, write_readme
+from python.util import get_readme, write_readme, get_date
 from util import get_feed, download_image
 
 iotd_url = "https://www.nasa.gov/rss/dyn/lg_image_of_the_day.rss"
@@ -63,11 +63,13 @@ def update_readme():
 
     readme = get_readme()
     for idx in range(len(readme)):
-        if '<img alt="iotd"' in readme[idx]:
+        if "last updated" in readme[idx]:
+            today = get_date(days_diff=0)
+            readme[idx] = f"### latest images (last updated {today})\n"
+        elif '<img alt="iotd"' in readme[idx]:
             readme[idx] = url_line
             logger.info(f"write {url_line}")
-            write_readme(file_contents=readme)
-            break
+    write_readme(file_contents=readme)
 
 
 if __name__ == '__main__':

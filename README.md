@@ -6,9 +6,12 @@
 - [powershell version](./powershell/README.md)
 
 ---
-<!-- apod image: -->
+### latest images (last updated 2025-04-30)
 <img alt="apod" src="https://apod.nasa.gov/apod/image/2504/HappySkyMexico_Korona_1358.jpg" />
+
 ---
-<!-- iotd image: -->
+
+iotd image:
 <img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2025/04/potw2515a.jpg" />
+
 ---
