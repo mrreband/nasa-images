@@ -2,8 +2,8 @@ import os
 
 import apod
 import iotd
-from python.logger import logger
-from python.util import get_date, get_file_contents, write_file_contents
+from logger import logger
+from util import get_date, get_file_contents, write_file_contents
 
 
 def get_readme_path():
