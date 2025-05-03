@@ -31,12 +31,12 @@ def update_readme():
 
     page_data = apod.get_post()
     image_url = apod.get_image_url(page_data=page_data)
-    apod_url_line = f'<img alt="apod" src="{image_url}" height={img_height} />\n'
+    apod_url_line = f'<a href="{image_url}"><img alt="apod" src="{image_url}" height={img_height} /></a>\n'
 
     last_post = iotd.get_feed(iotd.iotd_url, 1)[0]
     last_post_url = last_post["link"]
     image_url = iotd.get_iotd_image_url(last_post_url)
-    iotd_url_line = f'<img alt="iotd" src="{image_url}" height={img_height} />\n'
+    iotd_url_line = f'<a href="{image_url}"><img alt="iotd" src="{image_url}" height={img_height} /></a>\n'
 
     readme = get_readme()
     for idx in range(len(readme)):
