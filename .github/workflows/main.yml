@@ -1,0 +1,27 @@
+name: update readme
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 12 * * *'
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    defaults:
+      run:
+        working-directory: ./python
+    steps:
+    - name: checkout
+      uses: actions/checkout@v4
+    - name: setup
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+    - name: update
+      run: python -m update_readme
+    - name: Commit and push changes
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "update readme with today's images"
+        file_pattern: README.md
