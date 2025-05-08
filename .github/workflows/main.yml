@@ -1,5 +1,7 @@
 name: update readme
 on:
+  push:
+    branches: [ "update-readme-action" ]
   workflow_dispatch:
   schedule:
     - cron: '0 12 * * *'
