@@ -13,6 +13,9 @@ jobs:
     defaults:
       run:
         working-directory: ./python
+    env:
+      API_KEY: ${{ vars.API_KEY }}
+      APOD_ROOT_URL: ${{ vars.APOD_ROOT_URL }}
     steps:
     - name: checkout
       uses: actions/checkout@v4
