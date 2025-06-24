@@ -19,14 +19,14 @@ The scripts in this repo fetch and download images from each feed, with options 
 
 ---
 
-### latest images (last updated 2025-06-23)
+### latest images (last updated 2025-06-24)
 
 APOD image:
 
-<a href="https://apod.nasa.gov/apod/image/2506/ic1848_WISEantonucci_1824.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2506/ic1848_WISEantonucci_1824.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2506/M61_HubbleEsoGendler_2753.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2506/M61_HubbleEsoGendler_2753.jpg" height="300" /></a>
 
 IOTD image:
 
-<a href="https://www.nasa.gov/wp-content/uploads/2025/06/gsfc-20171208-archive-e001436orig.jpg"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2025/06/gsfc-20171208-archive-e001436orig.jpg" height="300" /></a>
+<a href="https://www.nasa.gov/wp-content/uploads/2025/06/1-themis-views-mars-arsia-mons-volcano-crop1-c27fa8.webp"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2025/06/1-themis-views-mars-arsia-mons-volcano-crop1-c27fa8.webp" height="300" /></a>
 
 ---
