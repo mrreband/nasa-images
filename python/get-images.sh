@@ -1,5 +1,5 @@
 #!/bin/bash
-cd ~/repos/nasa-images/python
+cd $HOME/repos/nasa-images/python
 source venv/bin/activate
 
 python -m apod
