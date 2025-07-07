@@ -7,6 +7,7 @@ from dotenv import load_dotenv, find_dotenv
 load_dotenv(find_dotenv())
 root_url = os.environ.get("APOD_ROOT_URL")
 api_key = os.environ.get("API_KEY")
+open_image = os.environ.get("OPEN_IMAGE", "False").lower() == "true"
 target_folder = os.path.join(os.path.dirname(__file__), "images", "apod")
 
 
@@ -32,18 +33,18 @@ def get_old_images(n: int):
         image_url = get_image_url(post)
         try:
             if image_url:
-                download_image(image_url=image_url, target_folder=target_folder, open_image_app=False)
+                download_image(image_url=image_url, target_folder=target_folder, open_image_app=open_image)
             else:
                 raise FileNotFoundError(f"{target_date}: no image found sry")
         except Exception as e:
             logger.error(f"error downloading image: {e}")
 
 
-def main(open_image_app: bool = True):
+def main():
     page_data = get_post()
     image_url = get_image_url(page_data=page_data)
     if image_url:
-        image_path = download_image(image_url=image_url, target_folder=target_folder, open_image_app=open_image_app)
+        image_path = download_image(image_url=image_url, target_folder=target_folder, open_image_app=open_image)
         return image_path
     else:
         logger.info("no image found sry")

@@ -4,7 +4,12 @@ import requests
 from logger import logger, log_fn
 from util import get_feed, download_image
 
-iotd_url = "https://www.nasa.gov/rss/dyn/lg_image_of_the_day.rss"
+from dotenv import load_dotenv, find_dotenv
+
+load_dotenv(find_dotenv())
+
+iotd_url = os.environ.get("IOTD_URL")
+open_image = os.environ.get("OPEN_IMAGE", "False").lower() == "true"
 target_folder = os.path.join(os.path.dirname(__file__), "images", "iotd")
 
 
@@ -41,7 +46,7 @@ def get_iotd_image_url(post_url):
         return get_image_from_html(last_post=last_post)
 
 
-def main(open_image_app: bool = True):
+def main():
     os.makedirs(target_folder, exist_ok=True)
 
     last_post = get_feed(iotd_url, 1)[0]
@@ -49,7 +54,7 @@ def main(open_image_app: bool = True):
     image_url = get_iotd_image_url(last_post_url)
 
     if image_url:
-        image_path = download_image(image_url, target_folder, open_image_app=open_image_app)
+        image_path = download_image(image_url, target_folder, open_image_app=open_image)
         return image_path
     return None
 
