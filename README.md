@@ -19,14 +19,14 @@ The scripts in this repo fetch and download images from each feed, with options 
 
 ---
 
-### latest images (last updated 2025-08-04)
+### latest images (last updated 2025-08-05)
 
 APOD image:
 
-<a href="https://apod.nasa.gov/apod/image/2508/M31Oxy_Collab_5415.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2508/M31Oxy_Collab_5415.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2508/Ngc6072_webb_3755.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2508/Ngc6072_webb_3755.jpg" height="300" /></a>
 
 IOTD image:
 
-<a href="https://www.nasa.gov/image-detail/nasas-spacex-crew-11-launch-3/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2025/08/54693154761-793efaf3d5-o.jpg" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/meteor-shower/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2025/08/54696755851-f9236d059b-o.jpg" height="300" /></a>
 
 ---
