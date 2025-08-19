@@ -19,14 +19,14 @@ The scripts in this repo fetch and download images from each feed, with options 
 
 ---
 
-### latest images (last updated 2025-08-18)
+### latest images (last updated 2025-08-19)
 
 APOD image:
 
-<a href="https://apod.nasa.gov/apod/image/2508/Spiral1309_HubbleGalbany_4000.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2508/Spiral1309_HubbleGalbany_4000.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2508/NGC6872_block.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2508/NGC6872_block.jpg" height="300" /></a>
 
 IOTD image:
 
-<a href="https://www.nasa.gov/image-detail/max/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2025/08/31581057184-7fc34ef213-o.jpg" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/afs-9-101/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2025/08/ksc-20250812-ph-kls01-0106orig.jpg" height="300" /></a>
 
 ---
