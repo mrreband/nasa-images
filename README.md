@@ -19,14 +19,14 @@ The scripts in this repo fetch and download images from each feed, with options 
 
 ---
 
-### latest images (last updated 2025-08-21)
+### latest images (last updated 2025-08-22)
 
 APOD image:
 
-<a href="https://apod.nasa.gov/apod/image/2508/20250813_035050-TL4IMG_7698nebulb7331-7833ss_2048.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2508/20250813_035050-TL4IMG_7698nebulb7331-7833ss_2048.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2508/M57_LRGB_2K.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2508/M57_LRGB_2K.jpg" height="300" /></a>
 
 IOTD image:
 
-<a href="https://www.nasa.gov/image-detail/4940404265-47186ca7a3-o/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2025/08/4940404265-47186ca7a3-o.jpg" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/nasa-works-to-improve-supersonic-parachutes-for-mars-missions/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2025/08/afrc2025-0094-0864orig.jpg" height="300" /></a>
 
 ---
