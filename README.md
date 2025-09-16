@@ -19,14 +19,14 @@ The scripts in this repo fetch and download images from each feed, with options 
 
 ---
 
-### latest images (last updated 2025-09-15)
+### latest images (last updated 2025-09-16)
 
 APOD image:
 
-<a href=""><img alt="apod" src="" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2509/Swan25B_Korona_1267.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2509/Swan25B_Korona_1267.jpg" height="300" /></a>
 
 IOTD image:
 
-<a href="https://www.nasa.gov/image-detail/brief-outburst-16760026566-oorig/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2025/09/brief-outburst-16760026566-oorig.jpg" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/blood-moon-lunar-eclipse-2025-7/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2025/09/maf-20250826-haats-md28-3dfc99.jpg" height="300" /></a>
 
 ---
