@@ -19,14 +19,14 @@ The scripts in this repo fetch and download images from each feed, with options 
 
 ---
 
-### latest images (last updated 2025-09-25)
+### latest images (last updated 2025-09-26)
 
 APOD image:
 
-<a href="https://apod.nasa.gov/apod/image/2509/DSC05293.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2509/DSC05293.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2509/C2025_R2_Swan_20250921s.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2509/C2025_R2_Swan_20250921s.jpg" height="300" /></a>
 
 IOTD image:
 
-<a href="https://www.nasa.gov/image-detail/astronaut-nick-hague-attends-joint-base-andrews-air-show/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2025/09/54783045945-682fa4ee3b-o.jpg" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/afs-8-101-1132/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2025/09/ksc-20250924-ph-kls01-0018orig.jpg" height="300" /></a>
 
 ---
