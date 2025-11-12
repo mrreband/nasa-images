@@ -19,7 +19,7 @@ The scripts in this repo fetch and download images from each feed, with options 
 
 ---
 
-### latest images (last updated 2025-11-02)
+### latest images (last updated 2025-11-12)
 
 APOD image:
 
