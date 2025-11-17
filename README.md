@@ -21,8 +21,6 @@ The scripts in this repo fetch and download images from each feed, with options 
 
 ### latest images (last updated 2025-11-17)
 
-## NOTE: These are typically updated automatically each day, but updates have been paused since 2025-10-02 due to ongoing government shutdown.  
-
 APOD image:
 
 <a href="https://apod.nasa.gov/apod/image/2511/LemmonTail_Fernandez_3728.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2511/LemmonTail_Fernandez_3728.jpg" height="300" /></a>
