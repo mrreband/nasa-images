@@ -19,14 +19,14 @@ The scripts in this repo fetch and download images from each feed, with options 
 
 ---
 
-### latest images (last updated 2025-11-26)
+### latest images (last updated 2025-11-27)
 
 APOD image:
 
-<a href="https://apod.nasa.gov/apod/image/2511/M15Deep_AIP_5585.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2511/M15Deep_AIP_5585.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2511/NGC1055JohnHayes.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2511/NGC1055JohnHayes.jpg" height="300" /></a>
 
 IOTD image:
 
-<a href="https://www.nasa.gov/image-detail/the-red-spider-nebula-caught-by-webb/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2025/11/potm2510a.jpg" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/afs-8-101-1215/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2025/11/ksc-20251020-ph-kls01-0050orig.jpg" height="300" /></a>
 
 ---
