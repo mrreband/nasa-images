@@ -19,14 +19,14 @@ The scripts in this repo fetch and download images from each feed, with options 
 
 ---
 
-### latest images (last updated 2025-12-02)
+### latest images (last updated 2025-12-03)
 
 APOD image:
 
-<a href="https://apod.nasa.gov/apod/image/2512/M77_Hubble_3681.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2512/M77_Hubble_3681.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2512/BlackHoleViz_Schnittman_8192.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2512/BlackHoleViz_Schnittman_8192.jpg" height="300" /></a>
 
 IOTD image:
 
-<a href="https://www.nasa.gov/image-detail/sagittarius-b2-miri-image/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2025/11/54809196576-59e88854d5-o.jpg" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/iss073e0819960/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2025/12/iss073e0819960orig.jpg" height="300" /></a>
 
 ---
