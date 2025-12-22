@@ -19,11 +19,11 @@ The scripts in this repo fetch and download images from each feed, with options 
 
 ---
 
-### latest images (last updated 2025-12-21)
+### latest images (last updated 2025-12-22)
 
 APOD image:
 
-<a href=""><img alt="apod" src="" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2512/StonehengeSolstice_Dury_3558.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2512/StonehengeSolstice_Dury_3558.jpg" height="300" /></a>
 
 IOTD image:
 
