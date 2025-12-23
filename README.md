@@ -19,14 +19,14 @@ The scripts in this repo fetch and download images from each feed, with options 
 
 ---
 
-### latest images (last updated 2025-12-22)
+### latest images (last updated 2025-12-23)
 
 APOD image:
 
-<a href="https://apod.nasa.gov/apod/image/2512/StonehengeSolstice_Dury_3558.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2512/StonehengeSolstice_Dury_3558.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2512/SpriteElf_binotto_1500.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2512/SpriteElf_binotto_1500.jpg" height="300" /></a>
 
 IOTD image:
 
-<a href="https://www.nasa.gov/image-detail/science-of-opportunity-stacked-water-dropslarge/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2025/12/science-of-opportunity-stacked-water-dropslarge.jpg" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/54960149350-2d46fe0a36-o/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2025/12/54960149350-2d46fe0a36-o.jpg" height="300" /></a>
 
 ---
