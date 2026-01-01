@@ -19,11 +19,11 @@ The scripts in this repo fetch and download images from each feed, with options 
 
 ---
 
-### latest images (last updated 2025-12-31)
+### latest images (last updated 2026-01-01)
 
 APOD image:
 
-<a href="https://apod.nasa.gov/apod/image/2512/WaterfallNeb_Selby_4000.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2512/WaterfallNeb_Selby_4000.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2601/AuroraFireworksstormRoiLevi.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2601/AuroraFireworksstormRoiLevi.jpg" height="300" /></a>
 
 IOTD image:
 
