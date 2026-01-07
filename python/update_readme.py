@@ -4,6 +4,7 @@ import apod
 import iotd
 from logger import logger
 from util import get_date, get_file_contents, write_file_contents
+from requests.exceptions import HTTPError
 
 
 def get_readme_path():
@@ -29,24 +30,49 @@ def update_readme():
     """
     img_height = '"300"'
 
-    page_data = apod.get_post()
-    image_url = apod.get_image_url(page_data=page_data)
-    apod_url_line = f'<a href="{image_url}"><img alt="apod" src="{image_url}" height={img_height} /></a>\n'
+    try:
+        page_data = apod.get_post()
+        image_url = apod.get_image_url(page_data=page_data)
+        apod_url_line = f'<a href="{image_url}"><img alt="apod" src="{image_url}" height={img_height} /></a>\n'
+        update_apod = True
+        apod_error = None
+    except HTTPError as ex:
+        apod_error = f"{ex.response.status_code} - {ex.response.reason}"
+        update_apod = False
 
-    last_post = iotd.get_feed(iotd.iotd_url, 1)[0]
-    last_post_url = last_post["link"]
-    image_url = iotd.get_iotd_image_url(last_post_url)
-    iotd_url_line = f'<a href="{last_post_url}"><img alt="iotd" src="{image_url}" height={img_height} /></a>\n'
+    try:
+        last_post = iotd.get_feed(iotd.iotd_url, 1)[0]
+        last_post_url = last_post["link"]
+        image_url = iotd.get_iotd_image_url(last_post_url)
+        iotd_url_line = f'<a href="{last_post_url}"><img alt="iotd" src="{image_url}" height={img_height} /></a>\n'
+        iotd_error = None
+        update_iotd = True
+    except HTTPError as ex:
+        iotd_error = f"{ex.response.status_code} - {ex.response.reason}"
+        update_iotd = False
 
     readme = get_readme()
     for idx in range(len(readme)):
-        if "last updated" in readme[idx]:
-            today = get_date(days_diff=0)
-            readme[idx] = f"### latest images (last updated {today})\n"
-        elif '<img alt="apod"' in readme[idx]:
+        today = get_date(days_diff=0)
+        if readme[idx].startswith("APOD image: <!-- apod_last_update_date -->") and update_apod:
+            readme[idx] = f"APOD image: <!-- apod_last_update_date --> (last updated {today})\n"
+        elif readme[idx].startswith("<!-- apod_last_update_status -->"):
+            if apod_error:
+                readme[idx] = f"<!-- apod_last_update_status --><i>(attempted {today} with error {apod_error})</i>\n"
+            else:
+                readme[idx] = "<!-- apod_last_update_status -->\n"
+        elif '<img alt="apod"' in readme[idx] and update_apod:
             readme[idx] = apod_url_line
             logger.info(f"write {apod_url_line}")
-        elif '<img alt="iotd"' in readme[idx]:
+
+        if readme[idx].startswith("IOTD image: <!-- iotd_last_update_date -->") and update_iotd:
+            readme[idx] = f"IOTD image: <!-- iotd_last_update_date --> (last updated {today})\n"
+        elif readme[idx].startswith("<!-- iotd_last_update_status -->"):
+            if iotd_error:
+                readme[idx] = f"<!-- iotd_last_update_status --><i>(attempted {today} with error {iotd_error})</i>\n"
+            else:
+                readme[idx] = "<!-- iotd_last_update_status -->\n"
+        elif '<img alt="iotd"' in readme[idx] and update_iotd:
             readme[idx] = iotd_url_line
             logger.info(f"write {iotd_url_line}")
     write_readme(file_contents=readme)
