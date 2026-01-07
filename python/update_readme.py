@@ -55,7 +55,8 @@ def get_iotd(img_height):
 
 def update_image_section(readme, image_type, image_data, today):
     """
-    Update README lines for a specific image type (apod or iotd)
+    update README lines for a specific image type (apod or iotd)
+    todo: use badges to indicate last run status
     """
     for idx in range(len(readme)):
         if readme[idx].startswith(f"{image_type.upper()} image: <!-- {image_type}_last_update_date -->") and image_data["update"]:
@@ -72,7 +73,7 @@ def update_image_section(readme, image_type, image_data, today):
 
 def update_readme():
     """
-    update the root README.md - set urls for the latest images, set last updated date
+    update the root README.md - set urls, last updated, and any errors for the latest images
     """
     img_height = '"300"'
 
