@@ -27,7 +27,7 @@ def get_image_from_html(last_post):
 
 
 @log_fn
-def get_iotd_image_url(post_url):
+def get_iotd_image_url(post_url, height: int = None):
     """
     find the api url in the post metadata - make a request to that endpoint and extract the image url from the response
     """
@@ -37,9 +37,10 @@ def get_iotd_image_url(post_url):
         api_link = alternate_link["url"]
         logger.info(f"api_link = {api_link}")
         api_response = requests.get(api_link).json()
-
         image_guid = api_response["guid"]
         image_url = image_guid["rendered"]
+        if height:
+            image_url += f"?h={height}"
         return image_url
     except KeyError as ex:
         logger.info(f"KeyError: {ex} - Key not found: {ex.args[0]}")
