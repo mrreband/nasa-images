@@ -1,6 +1,6 @@
 function GetHDUrl ($PageUrl)
 {
-	$response = Invoke-WebRequest -URI $PageUrl
+	$response = Invoke-WebRequest -Uri $PageUrl -UseBasicParsing
 	if ($response.StatusCode -eq 200)
 	{
 		$responseContent = $response.Content
@@ -24,7 +24,7 @@ function DownloadImage ($ImageUrl, $TargetFolder)
 {
 	# Set the absolute target file path
 	$AbsolutePath = Join-Path $PSScriptRoot $TargetFolder
-	
+
 	$startPosition = $ImageUrl.LastIndexOf('/')
 	$FileName = $ImageUrl.SubString($ImageUrl.LastIndexOf('/') + 1)
 	$TargetFilePath = Join-Path $AbsolutePath $FileName
@@ -33,16 +33,16 @@ function DownloadImage ($ImageUrl, $TargetFolder)
 	{
 		# Download
 		mkdir $AbsolutePath -Force | Out-Null
-		Invoke-WebRequest -Uri $ImageUrl -OutFile $TargetFilePath
+		Invoke-WebRequest -Uri $ImageUrl -OutFile $TargetFilePath -UseBasicParsing
 
 		# Open locally with the default app
 		Start-Process $TargetFilePath
 
-		# Switch the background to span 
+		# Switch the background to span
 		# - Want: "Choose a fit" on the Windows Background screen to always be "span"
 		# 	- if you choose "set as background" in the images app, it will reset the fit to "fit", and this will subsequently set it to span
 		# 	- if you didn't choose a new background, this doesn't do anything, but it doesn't hurt anything either
-		. ".\RefreshWallpaper.ps1" -WallpaperStyle 22		
+		. ".\RefreshWallpaper.ps1" -WallpaperStyle 22
 	} else {
 		Write-Output "Target file already exists"
 	}

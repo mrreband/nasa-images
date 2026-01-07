@@ -10,10 +10,10 @@ param
 $ErrorActionPreference = "Stop"
 
 # Get the most recent item from NASA's RSS feed
-$rssFeed = [xml](Invoke-WebRequest "https://www.nasa.gov/rss/dyn/lg_image_of_the_day.rss")
+$rssFeed = [xml](Invoke-WebRequest -Uri "https://www.nasa.gov/rss/dyn/lg_image_of_the_day.rss" -UseBasicParsing)
 $PageUrl = $rssFeed.rss.channel.item[0].link
 echo "PageUrl = $PageUrl"
-$mostRecentItem = (Invoke-WebRequest $PageUrl) 
+$mostRecentItem = (Invoke-WebRequest -Uri $PageUrl -UseBasicParsing)
 
 # Find the image in the page
 $ImageOfTheDay = $mostRecentItem.AllElements | Where-Object {$_.tagName -eq "meta" -and $_.property -eq "og:image"}
@@ -30,7 +30,7 @@ if (!(test-path($TargetFilePath)))
 	# Download
 	echo "Downloading $TargetFilePath"
 	mkdir $AbsolutePath -Force | Out-Null
-	Invoke-WebRequest $ImageUrl -OutFile $TargetFilePath
+	Invoke-WebRequest -Uri $ImageUrl -OutFile $TargetFilePath -UseBasicParsing
 
 	# Open locally with the default app
 	start $TargetFilePath
