@@ -58,17 +58,22 @@ def update_image_section(readme, image_type, image_data, today):
     update README lines for a specific image type (apod or iotd)
     todo: use badges to indicate last run status
     """
+    logger.debug(f"update image section: image_type = {image_type} today = {today}")
+    logger.debug(f"image_data = {image_data}")
     for idx in range(len(readme)):
         if readme[idx].startswith(f"{image_type.upper()} image: <!-- {image_type}_last_update_date -->") and image_data["update"]:
+            logger.info(f"update {image_type} last updated date to {today}")
             readme[idx] = f"{image_type.upper()} image: <!-- {image_type}_last_update_date --> (last updated {today})\n"
         elif readme[idx].startswith(f"<!-- {image_type}_last_update_status -->"):
             if image_data["error"]:
-                readme[idx] = f"<!-- {image_type}_last_update_status --><i>(attempted {today} with error {image_data['error']})</i>\n"
+                logger.info(f"update {image_type} last update status with error {image_data['error']}")
+                readme[idx] = f"<!-- {image_type}_last_update_status --><i>(attempted {today} - {image_data['error']})</i>\n"
             else:
+                logger.info(f"update {image_type} last update status with no errors")
                 readme[idx] = f"<!-- {image_type}_last_update_status -->\n"
         elif f'<img alt="{image_type}"' in readme[idx] and image_data["update"]:
+            logger.info(f"set {image_type} image url to {image_data['url']}")
             readme[idx] = image_data["url"]
-            logger.info(f"write {image_data['url']}")
 
 
 def update_readme():

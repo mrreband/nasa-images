@@ -1,5 +1,34 @@
 # Nasa Images
 
+<table>
+    <tr>
+        <th style="text-align: center">
+APOD image: <!-- apod_last_update_date --> (last updated 2026-01-02)
+        </th>
+        <th style="text-align: center">
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-01-07)
+        </th>
+    </tr>
+    <tr>
+        <td style="text-align: center">
+<!-- apod_last_update_status --><i>(attempted 2026-01-07 - 504 - Gateway Timeout)</i>
+        </td>
+        <td style="text-align: center">
+<!-- iotd_last_update_status -->
+        </td>
+    </tr>
+    <tr>
+        <td>
+<a href="https://apod.nasa.gov/apod/image/2601/NanosailD2_reprocessed1a.png"><img alt="apod" src="https://apod.nasa.gov/apod/image/2601/NanosailD2_reprocessed1a.png" height="300" /></a>
+        </td>
+        <td>
+<a href="https://www.nasa.gov/image-detail/earth-observation-2/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/01/iss073e0532039orig.jpg" height="300" /></a>
+        </td>
+    </tr>
+</table>
+
+---
+
 ## Scripts for NASA Feeds
 
 NASA has two independent feeds that each publish a new image once a day:
@@ -16,19 +45,5 @@ The scripts in this repo fetch and download images from each feed, with options 
 
 - [python version](./python/README.md)
 - [powershell version](./powershell/README.md)
-
----
-
-## latest images
-
-APOD image: <!-- apod_last_update_date --> (last updated 2026-01-02)
-<!-- apod_last_update_status --><i>(attempted 2026-01-07 with error 504 - Gateway Timeout)</i>
-
-<a href="https://apod.nasa.gov/apod/image/2601/NanosailD2_reprocessed1a.png"><img alt="apod" src="https://apod.nasa.gov/apod/image/2601/NanosailD2_reprocessed1a.png" height="300" /></a>
-
-IOTD image:<!-- iotd_last_update_date --> (last updated 2026-01-07)
-<!-- iotd_last_update_status -->
-
-<a href="https://www.nasa.gov/image-detail/earth-observation-2/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/01/iss073e0532039orig.jpg" height="300" /></a>
 
 ---
