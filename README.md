@@ -29,6 +29,6 @@ APOD image: <!-- apod_last_update_date --> (last updated 2026-01-02)
 IOTD image:<!-- iotd_last_update_date --> (last updated 2026-01-07)
 <!-- iotd_last_update_status -->
 
-<a href="https://www.nasa.gov/image-detail/e1a-spherex-all-sky-stars-and-gas-dust-2/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/01/e1a-spherex-all-sky-stars-and-gas-dust.webp" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/earth-observation-2/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/01/iss073e0532039orig.jpg" height="300" /></a>
 
 ---
