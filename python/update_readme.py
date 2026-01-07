@@ -42,7 +42,7 @@ def get_iotd(img_height):
     try:
         last_post = iotd.get_feed(iotd.iotd_url, 1)[0]
         last_post_url = last_post["link"]
-        image_url = iotd.get_iotd_image_url(last_post_url)
+        image_url = iotd.get_iotd_image_url(last_post_url, height=img_height)
         iotd_url_line = f'<a href="{last_post_url}"><img alt="iotd" src="{image_url}" height="{img_height}" /></a>\n'
         iotd_error = None
         update_iotd = True
