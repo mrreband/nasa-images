@@ -80,29 +80,11 @@ def update_readme():
     iotd = get_iotd(img_height)
 
     readme = get_readme()
-    for idx in range(len(readme)):
-        today = get_date(days_diff=0)
-        if readme[idx].startswith("APOD image: <!-- apod_last_update_date -->") and apod["update"]:
-            readme[idx] = f"APOD image: <!-- apod_last_update_date --> (last updated {today})\n"
-        elif readme[idx].startswith("<!-- apod_last_update_status -->"):
-            if apod["error"]:
-                readme[idx] = f"<!-- apod_last_update_status --><i>(attempted {today} with error {apod['error']})</i>\n"
-            else:
-                readme[idx] = "<!-- apod_last_update_status -->\n"
-        elif '<img alt="apod"' in readme[idx] and apod["update"]:
-            readme[idx] = apod["url"]
-            logger.info(f"write {apod['url']}")
+    today = get_date(days_diff=0)
 
-        if readme[idx].startswith("IOTD image: <!-- iotd_last_update_date -->") and iotd["update"]:
-            readme[idx] = f"IOTD image: <!-- iotd_last_update_date --> (last updated {today})\n"
-        elif readme[idx].startswith("<!-- iotd_last_update_status -->"):
-            if iotd["error"]:
-                readme[idx] = f"<!-- iotd_last_update_status --><i>(attempted {today} with error {iotd['error']})</i>\n"
-            else:
-                readme[idx] = "<!-- iotd_last_update_status -->\n"
-        elif '<img alt="iotd"' in readme[idx] and iotd["update"]:
-            readme[idx] = iotd["url"]
-            logger.info(f"write {iotd['url']}")
+    update_image_section(readme, "apod", apod, today)
+    update_image_section(readme, "iotd", iotd, today)
+
     write_readme(file_contents=readme)
 
 
