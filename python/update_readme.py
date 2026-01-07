@@ -29,7 +29,7 @@ def get_apod(img_height):
         page_data = apod.get_post()
         image_url = apod.get_image_url(page_data=page_data)
         update_apod = True
-        apod_url_line = f'<a href="{image_url}"><img alt="apod" src="{image_url}" height={img_height} /></a>\n'
+        apod_url_line = f'<a href="{image_url}"><img alt="apod" src="{image_url}" height="{img_height}" /></a>\n'
         apod_error = None
     except HTTPError as ex:
         update_apod = False
@@ -43,7 +43,7 @@ def get_iotd(img_height):
         last_post = iotd.get_feed(iotd.iotd_url, 1)[0]
         last_post_url = last_post["link"]
         image_url = iotd.get_iotd_image_url(last_post_url)
-        iotd_url_line = f'<a href="{last_post_url}"><img alt="iotd" src="{image_url}" height={img_height} /></a>\n'
+        iotd_url_line = f'<a href="{last_post_url}"><img alt="iotd" src="{image_url}" height="{img_height}" /></a>\n'
         iotd_error = None
         update_iotd = True
     except HTTPError as ex:
@@ -80,7 +80,7 @@ def update_readme():
     """
     update the root README.md - set urls, last updated, and any errors for the latest images
     """
-    img_height = '"300"'
+    img_height = 300
 
     apod = get_apod(img_height)
     iotd = get_iotd(img_height)
