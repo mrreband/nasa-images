@@ -27,6 +27,7 @@ def get_source(url):
         response (object): HTTP response object from requests_html.
     """
     response = requests.get(url)
+    response.raise_for_status()
     return response
 
 
@@ -110,4 +111,3 @@ def get_file_contents(file_path: str):
 def write_file_contents(file_path: str, file_contents):
     with open(file_path, "w", encoding="utf8") as file:
         file.writelines(file_contents)
-

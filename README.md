@@ -19,14 +19,16 @@ The scripts in this repo fetch and download images from each feed, with options 
 
 ---
 
-### latest images (last updated 2026-01-02)
+## latest images
 
-APOD image:
+APOD image: <!-- apod_last_update_date --> (last updated 2026-01-02)
+<!-- apod_last_update_status --><i>(attempted 2026-01-07 with error 504 - Gateway Timeout)</i>
 
 <a href="https://apod.nasa.gov/apod/image/2601/NanosailD2_reprocessed1a.png"><img alt="apod" src="https://apod.nasa.gov/apod/image/2601/NanosailD2_reprocessed1a.png" height="300" /></a>
 
-IOTD image:
+IOTD image:<!-- iotd_last_update_date --> (last updated 2026-01-07)
+<!-- iotd_last_update_status -->
 
-<a href="https://www.nasa.gov/image-detail/hubble-ngc4388-potw2550a/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2025/12/hubble-ngc4388-potw2550a.jpg" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/earth-observation-2/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/01/iss073e0532039orig.jpg" height="300" /></a>
 
 ---
