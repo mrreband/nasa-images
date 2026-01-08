@@ -6,12 +6,12 @@
 APOD image: <!-- apod_last_update_date --> (last updated 2026-01-02)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-01-07)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-01-08)
         </th>
     </tr>
     <tr>
         <td style="text-align: center">
-<!-- apod_last_update_status --><i>(attempted 2026-01-07 - 504 - Gateway Timeout)</i>
+<!-- apod_last_update_status --><i>(attempted 2026-01-08 - 504 - Gateway Timeout)</i>
         </td>
         <td style="text-align: center">
 <!-- iotd_last_update_status -->
@@ -22,7 +22,7 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-01-07)
 <a href="https://apod.nasa.gov/apod/image/2601/NanosailD2_reprocessed1a.png"><img alt="apod" src="https://apod.nasa.gov/apod/image/2601/NanosailD2_reprocessed1a.png" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/earth-observation-2/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/01/iss073e0532039orig.jpg" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/earth-observation-2/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/01/iss073e0532039orig.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
