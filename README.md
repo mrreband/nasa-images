@@ -6,12 +6,12 @@
 APOD image: <!-- apod_last_update_date --> (last updated 2026-01-02)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-01-11)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-01-12)
         </th>
     </tr>
     <tr>
         <td style="text-align: center">
-<!-- apod_last_update_status --><i>(attempted 2026-01-11 - 504 - Gateway Timeout)</i>
+<!-- apod_last_update_status --><i>(attempted 2026-01-12 - 504 - Gateway Timeout)</i>
         </td>
         <td style="text-align: center">
 <!-- iotd_last_update_status -->
