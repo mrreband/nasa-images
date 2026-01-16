@@ -11,7 +11,7 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-01-16)
     </tr>
     <tr>
         <td style="text-align: center">
-<!-- apod_last_update_status -->
+<!-- apod_last_update_status --><i>(attempted 2026-01-13 - 504 - Gateway Timeout)</i>
         </td>
         <td style="text-align: center">
 <!-- iotd_last_update_status -->
