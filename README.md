@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-01-17)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-01-18)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-01-17)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-01-18)
         </th>
     </tr>
     <tr>
@@ -19,7 +19,7 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-01-17)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2601/a14pan9335-43emj.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2601/a14pan9335-43emj.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2601/Jupiter2_WebbSchmidt_3283_annotated.png"><img alt="apod" src="https://apod.nasa.gov/apod/image/2601/Jupiter2_WebbSchmidt_3283_annotated.png" height="300" /></a>
         </td>
         <td>
 <a href="https://www.nasa.gov/image-detail/afs-8-101-1235/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/01/ksc-20260109-ph-jbs01-0009orig.jpg?h=300" height="300" /></a>
