@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-01-20)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-01-21)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-01-20)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-01-21)
         </th>
     </tr>
     <tr>
@@ -19,7 +19,7 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-01-20)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2601/iotruecolor_galileo_2796.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2601/iotruecolor_galileo_2796.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2601/JWSTMIRI_ngc1365.png"><img alt="apod" src="https://apod.nasa.gov/apod/image/2601/JWSTMIRI_ngc1365.png" height="300" /></a>
         </td>
         <td>
 <a href="https://www.nasa.gov/image-detail/hubble-ngc-1333-j521025-3117-2flat-cont-final/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/01/hubble-ngc-1333-j521025-3117-2flat-cont-final.jpg?h=300" height="300" /></a>
