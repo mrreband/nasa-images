@@ -3,15 +3,15 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-01-21)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-01-23)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-01-22)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-01-23)
         </th>
     </tr>
     <tr>
         <td style="text-align: center">
-<!-- apod_last_update_status --><i>(attempted 2026-01-22 - 404 - Not Found)</i>
+<!-- apod_last_update_status -->
         </td>
         <td style="text-align: center">
 <!-- iotd_last_update_status -->
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-01-22)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2601/JWSTMIRI_ngc1365.png"><img alt="apod" src="https://apod.nasa.gov/apod/image/2601/JWSTMIRI_ngc1365.png" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2601/Abell7pugh.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2601/Abell7pugh.jpg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/sls-ksc-artemis-ii-rollout-1172026-33orig/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/01/sls-ksc-artemis-ii-rollout-1172026-33orig.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/day-of-remembrance-20/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/01/55055825206-023ccd4937-o.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
