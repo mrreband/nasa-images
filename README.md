@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-01-30)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-01-31)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-01-30)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-01-31)
         </th>
     </tr>
     <tr>
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-01-30)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2601/NGC1333_Robert_Eder.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2601/NGC1333_Robert_Eder.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2601/art001e000672-orig.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2601/art001e000672-orig.jpg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/stsci-01kcmamz8zsmrtr9kkd8y6emrj/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/01/stsci-01kcmamz8zsmrtr9kkd8y6emrj.png?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/pia26718orig/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/01/pia26718orig.png?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
