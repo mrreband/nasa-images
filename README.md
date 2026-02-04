@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-02-03)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-02-04)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-02-03)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-02-04)
         </th>
     </tr>
     <tr>
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-02-03)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2602/RedSpider_Webb_1280.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2602/RedSpider_Webb_1280.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2602/NGC1512_stern_6214.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2602/NGC1512_stern_6214.jpg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/ksc-01172026-artemis-ii-rollout-20orig/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/01/ksc-01172026-artemis-ii-rollout-20orig.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/artemis-ii-at-the-pad-full-snow-moon-02012026-2orig/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/02/artemis-ii-at-the-pad-full-snow-moon-02012026-2orig.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
