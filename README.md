@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-02-06)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-02-07)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-02-06)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-02-07)
         </th>
     </tr>
     <tr>
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-02-06)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2602/CasA_nircam_4096.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2602/CasA_nircam_4096.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2602/PIA20522enceladus.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2602/PIA20522enceladus.jpg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/hubble-ngc7722-potm2601b/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/02/hubble-ngc7722-potm2601b.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/sdo-02-04-26-1216ut-x4-131-171-v3/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/02/sdo-02-04-26-1216ut-x4-131-171-v3.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
