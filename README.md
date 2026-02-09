@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-02-08)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-02-09)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-02-08)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-02-09)
         </th>
     </tr>
     <tr>
@@ -19,7 +19,7 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-02-08)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2602/Sunspot4366_Korona_1280.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2602/Sunspot4366_Korona_1280.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2602/Miranda_Voyager2Zelario12_2320.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2602/Miranda_Voyager2Zelario12_2320.jpg" height="300" /></a>
         </td>
         <td>
 <a href="https://www.nasa.gov/image-detail/sdo-02-04-26-1216ut-x4-131-171-v3/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/02/sdo-02-04-26-1216ut-x4-131-171-v3.jpg?h=300" height="300" /></a>
