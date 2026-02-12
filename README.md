@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-02-11)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-02-12)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-02-11)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-02-12)
         </th>
     </tr>
     <tr>
@@ -19,7 +19,7 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-02-11)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2602/Sunspots2025_SdoSanli_3450.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2602/Sunspots2025_SdoSanli_3450.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2602/APOD-Sinus-Iridum-Olaf-Filzinger.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2602/APOD-Sinus-Iridum-Olaf-Filzinger.jpg" height="300" /></a>
         </td>
         <td>
 <a href="https://www.nasa.gov/image-detail/afs-8-101-1244/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/02/ksc-20260209-ph-kls01-0003orig.jpg?h=300" height="300" /></a>
