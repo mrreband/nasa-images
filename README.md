@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-02-17)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-02-18)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-02-17)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-02-18)
         </th>
     </tr>
     <tr>
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-02-17)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2602/Wierzchos_Chabo_1280.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2602/Wierzchos_Chabo_1280.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2602/OrionBarnard_Czerski_3000.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2602/OrionBarnard_Czerski_3000.jpg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/nasas-spacex-crew-12-launch-2/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/02/55093881630-42e655abce-o.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/japansnow-tmo-20260205-lrg/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/02/japansnow-tmo-20260205-lrg.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
