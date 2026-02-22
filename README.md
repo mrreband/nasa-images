@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-02-21)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-02-22)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-02-21)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-02-22)
         </th>
     </tr>
     <tr>
@@ -19,7 +19,7 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-02-21)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2602/20260219a.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2602/20260219a.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2602/marsshadow_opportunity_1024.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2602/marsshadow_opportunity_1024.jpg" height="300" /></a>
         </td>
         <td>
 <a href="https://www.nasa.gov/image-detail/jsc2026e007422/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/02/jsc2026e007422orig.jpg?h=300" height="300" /></a>
