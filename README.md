@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-02-23)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-02-24)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-02-23)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-02-24)
         </th>
     </tr>
     <tr>
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-02-23)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2602/Pleiades_Fiedosiuk_2200.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2602/Pleiades_Fiedosiuk_2200.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2602/PlanetParadeSydney_Agrawal_1663.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2602/PlanetParadeSydney_Agrawal_1663.jpg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/jsc2026e007422/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/02/jsc2026e007422orig.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/uranus-january-2025/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/02/55104944969-3bc3cb0506-o.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
