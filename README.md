@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-02-27)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-02-28)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-02-27)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-02-28)
         </th>
     </tr>
     <tr>
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-02-27)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2602/JellyfishBeecroft_final1_2048.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2602/JellyfishBeecroft_final1_2048.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2602/LunarOccultMercury_2026Feb18-Melandri.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2602/LunarOccultMercury_2026Feb18-Melandri.jpg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/06-dg01304/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/02/06-dg01304.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/carbothermal-reduction-demonstration-card-project-testing-2/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/02/jsc2025e075711orig.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
