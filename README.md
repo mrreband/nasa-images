@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-03-04)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-03-05)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-03-04)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-03-05)
         </th>
     </tr>
     <tr>
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-03-04)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2603/Shapley1_Bresseler_2092.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2603/Shapley1_Bresseler_2092.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2603/EclipseSequence_Murata_1080.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2603/EclipseSequence_Murata_1080.jpg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/amf-ksc-20260127-ph_kaa01-0070/"><img alt="iotd" src="https://images-assets.nasa.gov/image/KSC-20260127-PH_KAA01-0070/KSC-20260127-PH_KAA01-0070~large.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/astrosphere-xray-infrared-2/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/03/astrosphere-xray-infrared.webp?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
