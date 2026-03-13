@@ -1,7 +1,8 @@
 import os
+from datetime import datetime, timedelta
 
 from logger import logger
-from util import download_image, get_date, get_source, current_date
+from util import download_image, get_date, get_source, current_date, get_image_name
 from dotenv import load_dotenv, find_dotenv
 
 load_dotenv(find_dotenv())
@@ -26,21 +27,42 @@ def get_image_url(page_data) -> str:
     return image_url
 
 
-def get_old_images(n: int):
-    for i in range(1, n):
-        target_date = get_date(days_diff=i)
+def get_old_images(start_date: str, end_date: str = current_date, max_errors: int = 3):
+    """
+    Download images for a date range from end_date back to start_date (most recent to least recent)
+    break if an image already exists on disk
+    """
+    start = datetime.strptime(start_date, "%Y-%m-%d")
+    end = datetime.strptime(end_date, "%Y-%m-%d")
+    errors = 0
+
+    current = end
+    while current >= start:
+        target_date = current.strftime("%Y-%m-%d")
         post = get_post(target_date=target_date)
         image_url = get_image_url(post)
-        try:
-            if image_url:
-                download_image(image_url=image_url, target_folder=target_folder, open_image_app=open_image)
-            else:
-                raise FileNotFoundError(f"{target_date}: no image found sry")
-        except Exception as e:
-            logger.error(f"error downloading image: {e}")
+
+        if image_url:
+            image_name = get_image_name(image_url)
+            target_path = os.path.join(target_folder, image_name)
+            if os.path.exists(target_path):
+                logger.info(f"image for {target_date} already exists, short-circuiting")
+                break
+            try:
+                download_image(image_url=image_url, target_folder=target_folder, open_image_app=False)
+            except Exception as e:
+                logger.error(f"error downloading image for {target_date}: {e}")
+                errors += 1
+                if errors >= max_errors:
+                    logger.error("max errors reached, stopping")
+                    break
+        else:
+            logger.warning(f"{target_date}: no image found")
+
+        current -= timedelta(days=1)
 
 
-def main():
+def get_todays_image():
     page_data = get_post()
     image_url = get_image_url(page_data=page_data)
     if image_url:
@@ -52,4 +74,5 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    get_todays_image()
+    # get_old_images(start_date="2026-01-01", end_date="2026-03-02")

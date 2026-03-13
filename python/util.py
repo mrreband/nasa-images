@@ -59,8 +59,12 @@ def open_image(file_path):
         logger.error("Unsupported operating system. Cannot open the file.")
 
 
+def get_image_name(image_url: str) -> str:
+    return image_url.split("/")[-1]
+
+
 def download_image(image_url, target_folder, open_image_app: bool = False):
-    image_name = image_url.split("/")[-1]
+    image_name = get_image_name(image_url)
     target_path = os.path.join(target_folder, image_name)
     if os.path.exists(target_path):
         logger.info(f"{current_date}: target file {target_path} already exists")
