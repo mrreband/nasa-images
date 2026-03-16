@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-03-15)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-03-16)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-03-15)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-03-16)
         </th>
     </tr>
     <tr>
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-03-15)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2603/MayanMilkyWay_Fernandez_1600.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2603/MayanMilkyWay_Fernandez_1600.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2603/SpanishDancer_Hubble_3716.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2603/SpanishDancer_Hubble_3716.jpg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/nasa-2026-science-calendar-march/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/03/nasa-2026-science-calendar-march.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/goddardphotop9-1/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/02/goddardphotop9-1.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
