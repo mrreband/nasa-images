@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-03-19)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-03-20)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-03-19)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-03-20)
         </th>
     </tr>
     <tr>
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-03-19)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2603/jellyfish.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2603/jellyfish.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2603/equinox-3k-jcc.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2603/equinox-3k-jcc.jpg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/mayonvolcano-oli-20260226-lrg/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/03/mayonvolcano-oli-20260226-lrg.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/afs-8-101-1245/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/03/ksc-20260313-ph-jbs01-0203orig.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
