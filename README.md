@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-03-25)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-03-26)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-03-25)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-03-26)
         </th>
     </tr>
     <tr>
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-03-25)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2603/rapa_nui_milky_way.jpeg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2603/rapa_nui_milky_way.jpeg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2603/GWTC4-Events-Poster-Landscape.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2603/GWTC4-Events-Poster-Landscape.jpg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/nasa-update-on-implementation-of-national-space-policy/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/03/55166159616-92fbcbb330-o.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/full-res-for-display-2-2/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/03/full-res-for-display-2.png?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
