@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-03-26)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-03-27)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-03-26)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-03-27)
         </th>
     </tr>
     <tr>
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-03-26)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2603/GWTC4-Events-Poster-Landscape.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2603/GWTC4-Events-Poster-Landscape.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2603/NGC3190-APOD.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2603/NGC3190-APOD.jpg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/full-res-for-display-2-2/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/03/full-res-for-display-2.png?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/rcw86-xray-ixpe-optical-f2bd3a/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/03/rcw86-xray-ixpe-optical-f2bd3a.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
