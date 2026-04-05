@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-04-04)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-04-05)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-04-04)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-04-05)
         </th>
     </tr>
     <tr>
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-04-04)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2604/art002e000192.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2604/art002e000192.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2604/ngc3310_gemini_1837.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2604/ngc3310_gemini_1837.jpg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/fd02_for-pao/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/04/art002e000192.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/art002e008486/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/04/art002e008486orig.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
