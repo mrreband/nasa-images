@@ -6,12 +6,12 @@
 APOD image: <!-- apod_last_update_date --> (last updated 2026-04-05)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-04-05)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-04-06)
         </th>
     </tr>
     <tr>
         <td style="text-align: center">
-<!-- apod_last_update_status -->
+<!-- apod_last_update_status --><i>(attempted 2026-04-06 - 504 - Gateway Timeout)</i>
         </td>
         <td style="text-align: center">
 <!-- iotd_last_update_status -->
@@ -22,7 +22,7 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-04-05)
 <a href="https://apod.nasa.gov/apod/image/2604/ngc3310_gemini_1837.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2604/ngc3310_gemini_1837.jpg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/art002e008486/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/04/art002e008486orig.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/art002e009057/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/04/art002e009057orig.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
