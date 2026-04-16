@@ -6,12 +6,12 @@
 APOD image: <!-- apod_last_update_date --> (last updated 2026-04-15)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-04-15)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-04-16)
         </th>
     </tr>
     <tr>
         <td style="text-align: center">
-<!-- apod_last_update_status -->
+<!-- apod_last_update_status --><i>(attempted 2026-04-16 - 503 - Service Unavailable)</i>
         </td>
         <td style="text-align: center">
 <!-- iotd_last_update_status -->
@@ -22,7 +22,7 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-04-15)
 <a href="https://apod.nasa.gov/apod/image/2604/iss_moon_transit.jpeg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2604/iss_moon_transit.jpeg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/jsc2026e022311/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/04/jsc2026e022311orig.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/fd10_lunar-flyby-koch-sn-1015-long-lens/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/04/55207935871-acaeaa8692-o.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
