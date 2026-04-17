@@ -3,15 +3,15 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-04-15)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-04-17)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-04-16)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-04-17)
         </th>
     </tr>
     <tr>
         <td style="text-align: center">
-<!-- apod_last_update_status --><i>(attempted 2026-04-16 - 503 - Service Unavailable)</i>
+<!-- apod_last_update_status -->
         </td>
         <td style="text-align: center">
 <!-- iotd_last_update_status -->
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-04-16)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2604/iss_moon_transit.jpeg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2604/iss_moon_transit.jpeg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2604/M82_V3.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2604/M82_V3.jpg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/fd10_lunar-flyby-koch-sn-1015-long-lens/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/04/55207935871-acaeaa8692-o.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/shape-2999-2999-2/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/04/pia26748-spherex-cygnus-h2o-ice.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
