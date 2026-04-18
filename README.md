@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-04-17)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-04-18)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-04-17)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-04-18)
         </th>
     </tr>
     <tr>
@@ -19,7 +19,7 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-04-17)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2604/M82_V3.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2604/M82_V3.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2604/PanstarrsPlanetsPerrot.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2604/PanstarrsPlanetsPerrot.jpg" height="300" /></a>
         </td>
         <td>
 <a href="https://www.nasa.gov/image-detail/shape-2999-2999-2/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/04/pia26748-spherex-cygnus-h2o-ice.jpg?h=300" height="300" /></a>
