@@ -6,12 +6,12 @@
 APOD image: <!-- apod_last_update_date --> (last updated 2026-04-19)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-04-19)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-04-20)
         </th>
     </tr>
     <tr>
         <td style="text-align: center">
-<!-- apod_last_update_status -->
+<!-- apod_last_update_status --><i>(attempted 2026-04-20 - 503 - Service Unavailable)</i>
         </td>
         <td style="text-align: center">
 <!-- iotd_last_update_status -->
