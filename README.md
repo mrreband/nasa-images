@@ -3,15 +3,15 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-04-19)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-04-21)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-04-20)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-04-21)
         </th>
     </tr>
     <tr>
         <td style="text-align: center">
-<!-- apod_last_update_status --><i>(attempted 2026-04-20 - 503 - Service Unavailable)</i>
+<!-- apod_last_update_status -->
         </td>
         <td style="text-align: center">
 <!-- iotd_last_update_status -->
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-04-20)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2604/EyeOnMW_Claro_1380.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2604/EyeOnMW_Claro_1380.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2604/TripleArchAlps_Fux_7500.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2604/TripleArchAlps_Fux_7500.jpg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/shape-2999-2999-2/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/04/pia26748-spherex-cygnus-h2o-ice.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/x-59-flight-9-screen-grab-2/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/04/x-59-flight-9-screen-grab.webp?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
