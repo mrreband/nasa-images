@@ -6,12 +6,12 @@
 APOD image: <!-- apod_last_update_date --> (last updated 2026-04-21)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-04-22)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-04-23)
         </th>
     </tr>
     <tr>
         <td style="text-align: center">
-<!-- apod_last_update_status --><i>(attempted 2026-04-22 - 503 - Service Unavailable)</i>
+<!-- apod_last_update_status --><i>(attempted 2026-04-23 - 503 - Service Unavailable)</i>
         </td>
         <td style="text-align: center">
 <!-- iotd_last_update_status -->
@@ -22,7 +22,7 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-04-22)
 <a href="https://apod.nasa.gov/apod/image/2604/TripleArchAlps_Fux_7500.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2604/TripleArchAlps_Fux_7500.jpg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/full-res-for-display-3/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/04/full-res-for-display-3.png?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/fd02_returned_1003_d5_015_glover/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/04/art002e023345-o.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
