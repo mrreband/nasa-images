@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-05-06)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-05-07)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-05-06)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-05-07)
         </th>
     </tr>
     <tr>
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-05-06)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2605/saturn_neptune_retrograde.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2605/saturn_neptune_retrograde.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2605/supernova.mp4"><img alt="apod" src="https://apod.nasa.gov/apod/image/2605/supernova.mp4" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/s61-01908orig/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/04/s61-01908orig.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/xraydot-illus-2/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/04/xraydot-illus-1.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
