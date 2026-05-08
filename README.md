@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-05-07)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-05-08)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-05-07)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-05-08)
         </th>
     </tr>
     <tr>
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-05-07)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2605/supernova.mp4"><img alt="apod" src="https://apod.nasa.gov/apod/image/2605/supernova.mp4" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2605/CometRigel_Karuk_2851.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2605/CometRigel_Karuk_2851.jpg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/xraydot-illus-2/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/04/xraydot-illus-1.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/art002e023710/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/05/art002e023710orig.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
