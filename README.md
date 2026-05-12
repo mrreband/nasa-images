@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-05-11)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-05-12)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-05-11)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-05-12)
         </th>
     </tr>
     <tr>
@@ -19,7 +19,7 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-05-11)
     </tr>
     <tr>
         <td>
-<a href="https://www.youtube.com/embed/afHfMMC-MJE?rel=0"><img alt="apod" src="https://www.youtube.com/embed/afHfMMC-MJE?rel=0" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2605/CometR3_Orion.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2605/CometR3_Orion.jpg" height="300" /></a>
         </td>
         <td>
 <a href="https://www.nasa.gov/image-detail/jsc2025e078652-altorig/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/05/jsc2025e078652-altorig.jpg?h=300" height="300" /></a>
