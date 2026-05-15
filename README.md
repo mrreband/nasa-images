@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-05-14)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-05-15)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-05-14)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-05-15)
         </th>
     </tr>
     <tr>
@@ -19,7 +19,7 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-05-14)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2605/messier_portrait_300px_160h.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2605/messier_portrait_300px_160h.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2605/R3Orion_Hall_2870.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2605/R3Orion_Hall_2870.jpg" height="300" /></a>
         </td>
         <td>
 <a href="https://www.nasa.gov/image-detail/gmt109_22_49_chris-williams_-freshfood/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/05/55227020012-87ff8b1296-o.jpg?h=300" height="300" /></a>
