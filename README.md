@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-05-22)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-05-23)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-05-22)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-05-23)
         </th>
     </tr>
     <tr>
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-05-22)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2605/WR134morrone2048.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2605/WR134morrone2048.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2605/potw1913aa.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2605/potw1913aa.jpg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/hubble-ngc1266-2-4f-flat-final-crop2-2/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/05/hubble-ngc1266-2-4f-flat-final-crop2.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/star-forming-regions-in-m51/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/05/55252854454-c4ed9aa664-o.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
