@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-05-25)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-05-26)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-05-25)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-05-26)
         </th>
     </tr>
     <tr>
@@ -19,7 +19,7 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-05-25)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2605/ThackerayGlobs_Hayes_2664.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2605/ThackerayGlobs_Hayes_2664.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2605/Ngc3660Burcin_Block_1176.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2605/Ngc3660Burcin_Block_1176.jpg" height="300" /></a>
         </td>
         <td>
 <a href="https://www.nasa.gov/image-detail/star-forming-regions-in-m51/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/05/55252854454-c4ed9aa664-o.jpg?h=300" height="300" /></a>
