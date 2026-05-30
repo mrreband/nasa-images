@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-05-29)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-05-30)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-05-29)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-05-30)
         </th>
     </tr>
     <tr>
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-05-29)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2605/M104noirlab2612a.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2605/M104noirlab2612a.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2605/SuperMicroMoon_Mukherjee_3000.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2605/SuperMicroMoon_Mukherjee_3000.jpg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/x-59-lbfd-flight-10-2/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/05/afrc2026-0100-73-48ea27.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/eso490-017-1-flat-final-crop/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/05/eso490-017-1-flat-final-crop.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
