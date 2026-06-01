@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-05-31)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-06-01)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-05-31)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-06-01)
         </th>
     </tr>
     <tr>
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-05-31)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2605/M16Ir_HubbleRomero_2786.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2605/M16Ir_HubbleRomero_2786.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2605/LastRingPortrait_Cassini_4472.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2605/LastRingPortrait_Cassini_4472.jpg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/eso490-017-1-flat-final-crop/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/05/eso490-017-1-flat-final-crop.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/55270825152-a1118117db-o/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/05/55270825152-a1118117db-o.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
