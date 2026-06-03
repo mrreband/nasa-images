@@ -3,15 +3,15 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-06-01)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-06-03)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-06-02)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-06-03)
         </th>
     </tr>
     <tr>
         <td style="text-align: center">
-<!-- apod_last_update_status --><i>(attempted 2026-06-02 - 503 - Service Unavailable)</i>
+<!-- apod_last_update_status -->
         </td>
         <td style="text-align: center">
 <!-- iotd_last_update_status -->
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-06-02)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2605/LastRingPortrait_Cassini_4472.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2605/LastRingPortrait_Cassini_4472.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2606/andromeda.png"><img alt="apod" src="https://apod.nasa.gov/apod/image/2606/andromeda.png" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/55270825152-a1118117db-o/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/05/55270825152-a1118117db-o.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/gmt137_12_00_cc-esa_sophie-adenot_dragon_docking-complete_i/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/06/55299665361-f70b9ce302-o.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
