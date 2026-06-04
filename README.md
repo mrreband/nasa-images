@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-06-03)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-06-04)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-06-03)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-06-04)
         </th>
     </tr>
     <tr>
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-06-03)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2606/andromeda.png"><img alt="apod" src="https://apod.nasa.gov/apod/image/2606/andromeda.png" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2606/buckyballs.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2606/buckyballs.jpg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/gmt137_12_00_cc-esa_sophie-adenot_dragon_docking-complete_i/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/06/55299665361-f70b9ce302-o.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/hubble-m88-potm2605a/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/06/hubble-m88-potm2605a.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
