@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-06-10)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-06-11)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-06-10)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-06-11)
         </th>
     </tr>
     <tr>
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-06-10)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2606/eagle.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2606/eagle.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2606/Mermaid.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2606/Mermaid.jpg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/jsc2026e392659/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/06/jsc2026e392659.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/ng-06022026-artemis-iii-booster-segment-shipment-to-ksc-1-31large/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/06/ng-06022026-artemis-iii-booster-segment-shipment-to-ksc-1-31large.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
