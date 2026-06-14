@@ -3,15 +3,15 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-06-11)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-06-14)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-06-13)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-06-14)
         </th>
     </tr>
     <tr>
         <td style="text-align: center">
-<!-- apod_last_update_status --><i>(attempted 2026-06-13 - 503 - Service Unavailable)</i>
+<!-- apod_last_update_status -->
         </td>
         <td style="text-align: center">
 <!-- iotd_last_update_status -->
@@ -19,7 +19,7 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-06-13)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2606/Mermaid.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2606/Mermaid.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2606/VenusJupiter10_Pawar_1080.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2606/VenusJupiter10_Pawar_1080.jpg" height="300" /></a>
         </td>
         <td>
 <a href="https://www.nasa.gov/image-detail/55158722798-9bb0f41f19-o/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/06/55158722798-9bb0f41f19-o.jpg?h=300" height="300" /></a>
