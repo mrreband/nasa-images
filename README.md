@@ -3,15 +3,15 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-06-15)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-06-19)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-06-18)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-06-19)
         </th>
     </tr>
     <tr>
         <td style="text-align: center">
-<!-- apod_last_update_status --><i>(attempted 2026-06-18 - 503 - Service Unavailable)</i>
+<!-- apod_last_update_status -->
         </td>
         <td style="text-align: center">
 <!-- iotd_last_update_status -->
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-06-18)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2606/TripleSunShock_Winkopp_1108.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2606/TripleSunShock_Winkopp_1108.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2606/StarryNight2_Guerra_4080.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2606/StarryNight2_Guerra_4080.jpg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/macs0329-0211-sky-sreg-flat-final/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/06/macs0329-0211-sky-sreg-flat-final.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/webb-unveils-young-stars-across-every-stage-of-formation/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/06/55323265139-3f76fbd65a-o.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
