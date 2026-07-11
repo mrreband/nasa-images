@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-07-10)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-07-11)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-07-10)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-07-11)
         </th>
     </tr>
     <tr>
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-07-10)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2607/C14MareOrientaleGuyBardon.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2607/C14MareOrientaleGuyBardon.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2607/M24.png"><img alt="apod" src="https://apod.nasa.gov/apod/image/2607/M24.png" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/nasa-iotd-curiosity-takes-a-close-look-at-martian-sulfur-crystals/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/07/nasa-iotd-curiosity-takes-a-close-look-at-martian-sulfur-crystals.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/gmt177_ehdc1/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/07/55379860699-326a74df60-o.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
