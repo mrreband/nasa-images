@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-07-12)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-07-13)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-07-12)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-07-13)
         </th>
     </tr>
     <tr>
@@ -19,7 +19,7 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-07-12)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2607/NGC474_CfhtCoelum_1500.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2607/NGC474_CfhtCoelum_1500.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2607/Auroras_Esa.mp4"><img alt="apod" src="https://apod.nasa.gov/apod/image/2607/Auroras_Esa.mp4" height="300" /></a>
         </td>
         <td>
 <a href="https://www.nasa.gov/image-detail/gmt177_ehdc1/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/07/55379860699-326a74df60-o.jpg?h=300" height="300" /></a>
