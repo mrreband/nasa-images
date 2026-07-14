@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-07-13)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-07-14)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-07-13)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-07-14)
         </th>
     </tr>
     <tr>
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-07-13)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2607/Auroras_Esa.mp4"><img alt="apod" src="https://apod.nasa.gov/apod/image/2607/Auroras_Esa.mp4" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2607/Torifune_JAXA_1400.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2607/Torifune_JAXA_1400.jpg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/gmt177_ehdc1/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/07/55379860699-326a74df60-o.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/jsc2026e000758/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/07/jsc2026e000758orig.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
