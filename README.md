@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-07-18)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-07-19)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-07-18)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-07-19)
         </th>
     </tr>
     <tr>
@@ -19,7 +19,7 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-07-18)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2607/ShadowandRainbow_Loschiavo.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2607/ShadowandRainbow_Loschiavo.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2607/Genesisimpact_nasa_960.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2607/Genesisimpact_nasa_960.jpg" height="300" /></a>
         </td>
         <td>
 <a href="https://www.nasa.gov/image-detail/lighthouse-lg/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/07/lighthouse-lg.jpg?h=300" height="300" /></a>
