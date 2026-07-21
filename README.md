@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-07-20)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-07-21)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-07-20)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-07-21)
         </th>
     </tr>
     <tr>
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-07-20)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2607/LibertyNeb_Carpenter_1830.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2607/LibertyNeb_Carpenter_1830.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2607/TurtleRock_Curiosity_2048.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2607/TurtleRock_Curiosity_2048.jpg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/lighthouse-lg/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/07/lighthouse-lg.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/34280-mars-viking1-lander-1st-image-pia00381/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/07/34280-mars-viking1-lander-1st-image-pia00381.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
