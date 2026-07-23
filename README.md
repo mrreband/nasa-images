@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-07-22)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-07-23)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-07-22)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-07-23)
         </th>
     </tr>
     <tr>
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-07-22)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2607/corona_australis.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2607/corona_australis.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2607/LMC.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2607/LMC.jpg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/pia26586/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/07/pia26586.png?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/250th-ngc4736/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/07/250th-ngc4736.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
