@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-07-28)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-07-29)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-07-28)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-07-29)
         </th>
     </tr>
     <tr>
@@ -19,7 +19,7 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-07-28)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2607/LoopVolcanos_Laserna_5815.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2607/LoopVolcanos_Laserna_5815.jpg" height="300" /></a>
+<a href="https://www.youtube.com/embed/6_cH5-daLjg?si=i9geSInQj3VMZwx3"><img alt="apod" src="https://www.youtube.com/embed/6_cH5-daLjg?si=i9geSInQj3VMZwx3" height="300" /></a>
         </td>
         <td>
 <a href="https://www.nasa.gov/image-detail/expedition-74-soyuz-landing/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/07/55419246867-809993deb3-o.jpg?h=300" height="300" /></a>
