@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-08-03)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-08-04)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-08-03)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-08-04)
         </th>
     </tr>
     <tr>
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-08-03)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2608/MeteorGecko_Burnett_4944.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2608/MeteorGecko_Burnett_4944.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2608/HelixKnots_JWST_2000.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2608/HelixKnots_JWST_2000.jpg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/fdrf-ribbon-cutting-ceremony-at-nasa-langley/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/07/55433508350-2d4abff2f1-o.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/bijagosarchipelago-oli-20251128-lrg/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/08/bijagosarchipelago-oli-20251128-lrg.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
