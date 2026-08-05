@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-08-04)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-08-05)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-08-04)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-08-05)
         </th>
     </tr>
     <tr>
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-08-04)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2608/HelixKnots_JWST_2000.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2608/HelixKnots_JWST_2000.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2608/saturn_spokes.gif"><img alt="apod" src="https://apod.nasa.gov/apod/image/2608/saturn_spokes.gif" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/bijagosarchipelago-oli-20251128-lrg/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/08/bijagosarchipelago-oli-20251128-lrg.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/afs-8-101-1303/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/08/ksc-20260728-ph-jmt01-0003orig.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
