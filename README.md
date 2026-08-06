@@ -6,12 +6,12 @@
 APOD image: <!-- apod_last_update_date --> (last updated 2026-08-05)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-08-05)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-08-06)
         </th>
     </tr>
     <tr>
         <td style="text-align: center">
-<!-- apod_last_update_status -->
+<!-- apod_last_update_status --><i>(attempted 2026-08-06 - 503 - Service Unavailable)</i>
         </td>
         <td style="text-align: center">
 <!-- iotd_last_update_status -->
@@ -22,7 +22,7 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-08-05)
 <a href="https://apod.nasa.gov/apod/image/2608/saturn_spokes.gif"><img alt="apod" src="https://apod.nasa.gov/apod/image/2608/saturn_spokes.gif" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/afs-8-101-1303/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/08/ksc-20260728-ph-jmt01-0003orig.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/ksc-20260730-ph-as01-6583-2/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/08/ksc-20260730-ph-as01-6583.webp?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
