@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-08-07)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-08-08)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-08-07)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-08-08)
         </th>
     </tr>
     <tr>
@@ -19,7 +19,7 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-08-07)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2608/noirlab2618b.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2608/noirlab2618b.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2608/10P_Tempel2_Globular_M30_20260729_DEBartlett.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2608/10P_Tempel2_Globular_M30_20260729_DEBartlett.jpg" height="300" /></a>
         </td>
         <td>
 <a href="https://www.nasa.gov/image-detail/ixpemagnetarartistsconcept-web/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/08/ixpemagnetarartistsconcept-web.png?h=300" height="300" /></a>
