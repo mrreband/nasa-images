@@ -3,15 +3,15 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-08-08)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-08-11)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-08-10)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-08-11)
         </th>
     </tr>
     <tr>
         <td style="text-align: center">
-<!-- apod_last_update_status --><i>(attempted 2026-08-10 - 503 - Service Unavailable)</i>
+<!-- apod_last_update_status -->
         </td>
         <td style="text-align: center">
 <!-- iotd_last_update_status -->
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-08-10)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2608/10P_Tempel2_Globular_M30_20260729_DEBartlett.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2608/10P_Tempel2_Globular_M30_20260729_DEBartlett.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2608/2026-08-05-0609_7-SaturnSystem_c.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2608/2026-08-05-0609_7-SaturnSystem_c.jpg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/ixpemagnetarartistsconcept-web/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/08/ixpemagnetarartistsconcept-web.png?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/iss075e0000191/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/08/iss075e0000191orig.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
