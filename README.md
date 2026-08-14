@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-08-13)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-08-14)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-08-13)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-08-14)
         </th>
     </tr>
     <tr>
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-08-13)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2608/total_solar_eclipse.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2608/total_solar_eclipse.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2608/TSE2026DR_Madhaven.jpeg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2608/TSE2026DR_Madhaven.jpeg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/2026-total-solar-eclipse-2/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/08/55459753868-458217b2c9-o.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/perseidsorion-2/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/08/perseidsorion.webp?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
