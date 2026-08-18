@@ -3,15 +3,15 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-08-16)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-08-18)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-08-17)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-08-18)
         </th>
     </tr>
     <tr>
         <td style="text-align: center">
-<!-- apod_last_update_status --><i>(attempted 2026-08-17 - 503 - Service Unavailable)</i>
+<!-- apod_last_update_status -->
         </td>
         <td style="text-align: center">
 <!-- iotd_last_update_status -->
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-08-17)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2608/mwyellowstone_lane_1800.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2608/mwyellowstone_lane_1800.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2608/Perseids_karuk_3000.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2608/Perseids_karuk_3000.jpg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/2026-total-solar-eclipse-3/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/08/55460226954-564d105934-o.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/30dor-crop/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/08/30dor-crop.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
