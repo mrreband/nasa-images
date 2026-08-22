@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-08-21)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-08-22)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-08-21)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-08-22)
         </th>
     </tr>
     <tr>
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-08-21)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2608/eso2612b.mp4"><img alt="apod" src="https://apod.nasa.gov/apod/image/2608/eso2612b.mp4" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2608/allsky_CEMeNt_Aug12-13final_pretty_8bit.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2608/allsky_CEMeNt_Aug12-13final_pretty_8bit.jpg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/afs-8-101-1304/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/08/ksc-20260806-ph-rcr01-0010orig.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/webb-opens-a-treasure-chest-filled-with-stars/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/08/55457472091-12a8c7edb0-o.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
