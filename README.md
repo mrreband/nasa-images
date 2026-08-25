@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-08-24)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-08-25)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-08-24)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-08-25)
         </th>
     </tr>
     <tr>
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-08-24)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2608/Comet220P_SA_4104.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2608/Comet220P_SA_4104.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2608/EarthShadow_Martin_4000.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2608/EarthShadow_Martin_4000.jpg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/webb-opens-a-treasure-chest-filled-with-stars/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/08/55457472091-12a8c7edb0-o.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/freedom-250-grand-prix/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/08/55483612275-859663d405-o.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
