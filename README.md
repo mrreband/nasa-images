@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-08-25)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-08-26)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-08-25)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-08-26)
         </th>
     </tr>
     <tr>
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-08-25)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2608/EarthShadow_Martin_4000.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2608/EarthShadow_Martin_4000.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2608/lions_head_nebula.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2608/lions_head_nebula.jpg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/freedom-250-grand-prix/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/08/55483612275-859663d405-o.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/gmt230_ehdc1-2/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/08/55474999794-5b0f1a2c92-o.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
