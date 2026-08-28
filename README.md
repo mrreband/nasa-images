@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-08-27)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-08-28)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-08-27)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-08-28)
         </th>
     </tr>
     <tr>
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-08-27)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2608/Aurora_over_Fall.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2608/Aurora_over_Fall.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2608/TheSkyTurnsAboveParanal.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2608/TheSkyTurnsAboveParanal.jpg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/afs-8-101-1305/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/08/ksc-20260825-ph-ser01-0001orig.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/nasa-civil-servant-swearing-in-ceremony/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/08/acd26-0108-042orig.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
