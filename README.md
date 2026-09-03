@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-09-02)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-09-03)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-09-02)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-09-03)
         </th>
     </tr>
     <tr>
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-09-02)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2609/colors_of_eclipse.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2609/colors_of_eclipse.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2609/eclipse_stork.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2609/eclipse_stork.jpg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/amf-ksc-20260825-ph-rcr01_0045/"><img alt="iotd" src="https://images-assets.nasa.gov/image/KSC-20260825-PH-RCR01_0045/KSC-20260825-PH-RCR01_0045~large.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/amf-nhq202608300037/"><img alt="iotd" src="https://images-assets.nasa.gov/image/NHQ202608300037/NHQ202608300037~large.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
