@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-09-04)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-09-05)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-09-04)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-09-05)
         </th>
     </tr>
     <tr>
@@ -19,7 +19,7 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-09-04)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2609/noirlab2621a.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2609/noirlab2621a.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2609/2026Eclipse_WB57GoPro_Totality_H264_Abridged.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2609/2026Eclipse_WB57GoPro_Totality_H264_Abridged.jpg" height="300" /></a>
         </td>
         <td>
 <a href="https://www.nasa.gov/image-detail/amf-nhq202606170001/"><img alt="iotd" src="https://images-assets.nasa.gov/image/NHQ202606170001/NHQ202606170001~large.jpg?h=300" height="300" /></a>
