@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-09-10)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-09-11)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-09-10)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-09-11)
         </th>
     </tr>
     <tr>
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-09-10)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2609/LDN1295_giraffe.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2609/LDN1295_giraffe.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2609/M83_Final2_1x.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2609/M83_Final2_1x.jpg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/msfc-09012026-artemis-ii-crew-visit-at-msfc-1orig/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/09/msfc-09012026-artemis-ii-crew-visit-at-msfc-1orig.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/55459350878-2e1468b664-o/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/09/55459350878-2e1468b664-o.png?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
