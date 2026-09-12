@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-09-11)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-09-12)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-09-11)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-09-12)
         </th>
     </tr>
     <tr>
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-09-11)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2609/M83_Final2_1x.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2609/M83_Final2_1x.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2609/AS11-40-5872HR.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2609/AS11-40-5872HR.jpg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/55459350878-2e1468b664-o/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/09/55459350878-2e1468b664-o.png?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/galaxies-iizw096/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/09/galaxies-iizw096.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
