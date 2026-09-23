@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-09-22)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-09-23)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-09-22)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-09-23)
         </th>
     </tr>
     <tr>
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-09-22)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2609/PlaneIssSpots_Horalek_1500.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2609/PlaneIssSpots_Horalek_1500.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2609/mcgetchin_after.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2609/mcgetchin_after.jpg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/nasas-inspiration-tour-at-mt-bank-stadium/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/09/55540215826-eb77fe7409-o.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/m101-lg/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/09/m101-lg.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
