@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-09-23)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-09-24)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-09-23)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-09-24)
         </th>
     </tr>
     <tr>
@@ -19,10 +19,10 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-09-23)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2609/mcgetchin_after.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2609/mcgetchin_after.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2609/5SNR_Auriga_2000.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2609/5SNR_Auriga_2000.jpg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/m101-lg/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/09/m101-lg.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/stsci-h-p26023a-m-2000x1207/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/09/stsci-h-p26023a-m-2000x1207-1.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
