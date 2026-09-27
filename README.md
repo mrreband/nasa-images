@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-09-26)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-09-27)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-09-26)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-09-27)
         </th>
     </tr>
     <tr>
@@ -19,7 +19,7 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-09-26)
     </tr>
     <tr>
         <td>
-<a href="https://apod.nasa.gov/apod/image/2609/MilkyWayMeteorLSTJeffDai.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2609/MilkyWayMeteorLSTJeffDai.jpg" height="300" /></a>
+<a href="https://apod.nasa.gov/apod/image/2609/M31Before_Scherer_4298.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2609/M31Before_Scherer_4298.jpg" height="300" /></a>
         </td>
         <td>
 <a href="https://www.nasa.gov/image-detail/a-galaxy-spinning-out-of-sync/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/09/55534741297-34e5a9d414-o.jpg?h=300" height="300" /></a>
