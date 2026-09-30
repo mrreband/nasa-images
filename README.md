@@ -6,12 +6,12 @@
 APOD image: <!-- apod_last_update_date --> (last updated 2026-09-29)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-09-29)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-09-30)
         </th>
     </tr>
     <tr>
         <td style="text-align: center">
-<!-- apod_last_update_status -->
+<!-- apod_last_update_status --><i>(attempted 2026-09-30 - 504 - Gateway Timeout)</i>
         </td>
         <td style="text-align: center">
 <!-- iotd_last_update_status -->
@@ -22,7 +22,7 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-09-29)
 <a href="https://apod.nasa.gov/apod/image/2609/Shrimp_Pawel_2048.jpg"><img alt="apod" src="https://apod.nasa.gov/apod/image/2609/Shrimp_Pawel_2048.jpg" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/gmt251_08_43_jessica-meir_northern-aurora-cupola-14mm/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/09/55534901810-95d2f06788-o.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/afs-8-101-1312/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/09/55555912182-5c7a52ae0f-o.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
