@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-10-04)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-10-05)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-10-04)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-10-05)
         </th>
     </tr>
     <tr>
