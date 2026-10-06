@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-10-05)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-10-06)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-10-05)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-10-06)
         </th>
     </tr>
     <tr>
@@ -22,7 +22,7 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-10-05)
 <a href="https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png"><img alt="apod" src="https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/davinci-heat-test-1/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/10/davinci-heat-test-1.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/nasas-inspiration-tour-at-lincoln-financial-field/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/10/nhq202610040010orig.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
