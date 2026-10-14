@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-10-13)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-10-14)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-10-13)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-10-14)
         </th>
     </tr>
     <tr>
@@ -22,7 +22,7 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-10-13)
 <a href="https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png"><img alt="apod" src="https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/galaxies-in-a-cosmic-house-of-mirrors/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/10/55558916046-731625cbe5-o.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/afs-8-101-1315/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/10/ksc-20261001-ph-spx01-0001orig.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
