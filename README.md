@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-10-28)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-10-29)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-10-28)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-10-29)
         </th>
     </tr>
     <tr>
@@ -22,7 +22,7 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-10-28)
 <a href="https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png"><img alt="apod" src="https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/1-pia26715-bae-sunshade-inspection-2/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/10/1-pia26715-bae-sunshade-inspection-1.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/stars-brewing-in-a-nebulous-cauldron/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/10/55604475252-31d25bf2e0-o.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
