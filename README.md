@@ -3,15 +3,15 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-11-04)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-11-06)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-11-05)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-11-06)
         </th>
     </tr>
     <tr>
         <td style="text-align: center">
-<!-- apod_last_update_status --><i>(attempted 2026-11-05 - 503 - Service Unavailable)</i>
+<!-- apod_last_update_status -->
         </td>
         <td style="text-align: center">
 <!-- iotd_last_update_status -->
