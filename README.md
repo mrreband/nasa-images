@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-11-16)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-11-17)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-11-16)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-11-17)
         </th>
     </tr>
     <tr>
@@ -22,7 +22,7 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-11-16)
 <a href="https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png"><img alt="apod" src="https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/a-giant-star-in-a-distant-galaxy-has-been-mysteriously-erupting-for-at-least-15-years-new-data-from-nasas-chandra-explains-what-is-causing-these-huge-outbursts/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/11/at2016blu.jpg?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/11072026-ksc-max-power-airdotshow-2orig/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/11/11072026-ksc-max-power-airdotshow-2orig.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
