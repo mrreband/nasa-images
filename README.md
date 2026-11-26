@@ -3,10 +3,10 @@
 <table>
     <tr>
         <th style="text-align: center">
-APOD image: <!-- apod_last_update_date --> (last updated 2026-11-25)
+APOD image: <!-- apod_last_update_date --> (last updated 2026-11-26)
         </th>
         <th style="text-align: center">
-IOTD image: <!-- iotd_last_update_date --> (last updated 2026-11-25)
+IOTD image: <!-- iotd_last_update_date --> (last updated 2026-11-26)
         </th>
     </tr>
     <tr>
@@ -22,7 +22,7 @@ IOTD image: <!-- iotd_last_update_date --> (last updated 2026-11-25)
 <a href="https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png"><img alt="apod" src="https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo@2x.png" height="300" /></a>
         </td>
         <td>
-<a href="https://www.nasa.gov/image-detail/cas-a-webb-miri/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/11/cas-a-webb-miri.png?h=300" height="300" /></a>
+<a href="https://www.nasa.gov/image-detail/iss075e0274930/"><img alt="iotd" src="https://www.nasa.gov/wp-content/uploads/2026/11/iss075e0274930orig.jpg?h=300" height="300" /></a>
         </td>
     </tr>
 </table>
